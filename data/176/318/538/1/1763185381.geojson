@@ -2,10 +2,12 @@
   "id": 1763185381,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-01",
+    "date:cessation_upper": "2022-03-01",
     "date:inception_lower": "2022-03-01",
     "date:inception_upper": "2022-03-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-01",
+    "edtf:cessation": "2022-03-01T22:50:25Z",
+    "edtf:inception": "2022-03-01T19:17:00Z",
     "flysfo:actual_timestamp": 1646160360,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.8002995,
     "geom:longitude": -106.31638749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530009,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N77542",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16608145",
+      "swim:gufi": "KO55780300"
+    },
     "wof:country": "US",
     "wof:created": 1646237959,
     "wof:geomhash": "8b4edcad4124de1c487808d2d2d1ecd3",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763185381,
     "wof:involves": [
+      1159289871,
       102530009,
       102527513,
       1159285413,
       1745882303
     ],
-    "wof:lastmodified": 1646237959,
+    "wof:lastmodified": 1646238087,
     "wof:name": "UA2279 (SFO-MSY)",
     "wof:parent_id": 1745882303,
     "wof:placetype": "custom",
