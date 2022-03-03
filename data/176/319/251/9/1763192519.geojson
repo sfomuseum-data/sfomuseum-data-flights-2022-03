@@ -2,10 +2,12 @@
   "id": 1763192519,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-02",
+    "date:cessation_upper": "2022-03-02",
     "date:inception_lower": "2022-03-02",
     "date:inception_upper": "2022-03-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-02",
+    "edtf:cessation": "2022-03-02T23:00:00Z",
+    "edtf:inception": "2022-03-02T21:30:00Z",
     "flysfo:actual_timestamp": 1646255700,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619124,
     "lbl:longitude": -122.383949,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N37518",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16711634",
+      "swim:gufi": "KO65994400"
+    },
     "wof:country": "US",
     "wof:created": 1646324463,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -84,9 +97,10 @@
       102533269,
       102527513,
       1159285413,
-      1745882313
+      1745882313,
+      1528104577
     ],
-    "wof:lastmodified": 1646324463,
+    "wof:lastmodified": 1646324574,
     "wof:name": "UA2614 (SFO-SEA)",
     "wof:parent_id": 1745882313,
     "wof:placetype": "custom",

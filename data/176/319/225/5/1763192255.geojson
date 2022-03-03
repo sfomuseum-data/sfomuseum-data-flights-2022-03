@@ -2,10 +2,12 @@
   "id": 1763192255,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-02",
+    "date:cessation_upper": "2022-03-02",
     "date:inception_lower": "2022-03-02",
     "date:inception_upper": "2022-03-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-02",
+    "edtf:cessation": "2022-03-02T16:03:00Z",
+    "edtf:inception": "2022-03-02T14:02:00Z",
     "flysfo:actual_timestamp": 1646229180,
     "flysfo:airline": "WN",
     "flysfo:date": "2022-03-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N8669B",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16669167"
+    },
     "wof:country": "US",
     "wof:created": 1646324384,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763192255,
     "wof:involves": [
-      102531189,
-      102527513,
       1159285591,
-      1745882155
+      1745882155,
+      1159289871,
+      102531189,
+      102527513
     ],
-    "wof:lastmodified": 1646324384,
+    "wof:lastmodified": 1646324572,
     "wof:name": "WN939 (SFO-DEN)",
     "wof:parent_id": 1745882155,
     "wof:placetype": "custom",

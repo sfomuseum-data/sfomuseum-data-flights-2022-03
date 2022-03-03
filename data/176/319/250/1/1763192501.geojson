@@ -2,10 +2,12 @@
   "id": 1763192501,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-02",
+    "date:cessation_upper": "2022-03-02",
     "date:inception_lower": "2022-03-02",
     "date:inception_upper": "2022-03-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-02",
+    "edtf:cessation": "2022-03-02T18:16:00Z",
+    "edtf:inception": "2022-03-02T01:07:31-08:00",
     "flysfo:actual_timestamp": 1646238900,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.7213045,
     "geom:longitude": -119.4384925,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619367,
     "lbl:longitude": -122.38387,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533591,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N410UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16684869",
+      "swim:gufi": "KO48656400"
+    },
     "wof:country": "US",
     "wof:created": 1646324458,
     "wof:geomhash": "e84c3ec216fbaf9440bbf99d412a1253",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763192501,
     "wof:involves": [
+      1745882317,
+      1159292085,
       102533591,
       102527513,
-      1159285413,
-      1745882317
+      1159285413
     ],
-    "wof:lastmodified": 1646324458,
+    "wof:lastmodified": 1646324578,
     "wof:name": "UA2432 (SFO-PSP)",
     "wof:parent_id": 1745882317,
     "wof:placetype": "custom",

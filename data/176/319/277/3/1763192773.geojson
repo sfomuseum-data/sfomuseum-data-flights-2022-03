@@ -2,10 +2,12 @@
   "id": 1763192773,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-03",
+    "date:cessation_upper": "2022-03-03",
     "date:inception_lower": "2022-03-02",
     "date:inception_upper": "2022-03-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-02",
+    "edtf:cessation": "2022-03-03T05:42:35Z",
+    "edtf:inception": "2022-03-02T19:39:00Z",
     "flysfo:actual_timestamp": 1646248620,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.686867,
     "geom:longitude": 9.012156999999995,
     "iata:airline": "UA",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61836,
     "lbl:longitude": -122.393229,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102541685,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N13954",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16701365",
+      "swim:gufi": "KO56250400"
+    },
     "wof:country": "US",
     "wof:created": 1646324532,
     "wof:geomhash": "b0708fbc9882ec26729f19c3bf135279",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763192773,
     "wof:involves": [
+      1159293215,
       102541685,
       102527513,
       1159285413,
       1745882423
     ],
-    "wof:lastmodified": 1646324532,
+    "wof:lastmodified": 1646324574,
     "wof:name": "UA837 (SFO-NRT)",
     "wof:parent_id": 1745882423,
     "wof:placetype": "custom",
