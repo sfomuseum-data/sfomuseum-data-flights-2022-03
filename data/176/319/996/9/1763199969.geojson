@@ -2,10 +2,12 @@
   "id": 1763199969,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-03",
+    "date:cessation_upper": "2022-03-03",
     "date:inception_lower": "2022-03-03",
     "date:inception_upper": "2022-03-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-03",
+    "edtf:cessation": "2022-03-03T15:34:00Z",
+    "edtf:inception": "2022-03-03T14:26:00Z",
     "flysfo:actual_timestamp": 1646321880,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618102,
     "lbl:longitude": -122.38769,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527209,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N47524",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16763668",
+      "swim:gufi": "KL44725500"
+    },
     "wof:country": "US",
     "wof:created": 1646410201,
     "wof:geomhash": "fcf5095e8d1a14d003993bc5070a7f0f",
@@ -84,9 +97,10 @@
       102527513,
       102527209,
       1159285413,
-      1745882251
+      1745882251,
+      1528104577
     ],
-    "wof:lastmodified": 1646410201,
+    "wof:lastmodified": 1646411041,
     "wof:name": "UA1483 (LAS-SFO)",
     "wof:parent_id": 1745882251,
     "wof:placetype": "custom",

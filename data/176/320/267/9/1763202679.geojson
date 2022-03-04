@@ -2,10 +2,12 @@
   "id": 1763202679,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-04",
+    "date:cessation_upper": "2022-03-04",
     "date:inception_lower": "2022-03-03",
     "date:inception_upper": "2022-03-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-03",
+    "edtf:cessation": "2022-03-04T01:08:05Z",
+    "edtf:inception": "2022-03-03T20:01:00Z",
     "flysfo:actual_timestamp": 1646336340,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "UA",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620533,
     "lbl:longitude": -122.389374,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533997,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N77867",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16797994",
+      "swim:gufi": "KO64311500"
+    },
     "wof:country": "US",
     "wof:created": 1646410931,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763202679,
     "wof:involves": [
+      1159289945,
       102533997,
       102527513,
       1159285413,
       1745882283
     ],
-    "wof:lastmodified": 1646410931,
+    "wof:lastmodified": 1646411051,
     "wof:name": "UA2380 (SFO-HNL)",
     "wof:parent_id": 1745882283,
     "wof:placetype": "custom",

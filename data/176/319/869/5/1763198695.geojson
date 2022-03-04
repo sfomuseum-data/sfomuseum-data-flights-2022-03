@@ -2,10 +2,12 @@
   "id": 1763198695,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-03",
+    "date:cessation_upper": "2022-03-03",
     "date:inception_lower": "2022-03-03",
     "date:inception_upper": "2022-03-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-03",
+    "edtf:cessation": "2022-03-03T23:09:00Z",
+    "edtf:inception": "2022-03-03T16:57:00Z",
     "flysfo:actual_timestamp": 1646349780,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-03-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617421,
     "lbl:longitude": -122.380916,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534365,
@@ -34,6 +38,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N529AS",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +53,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16777059"
+    },
     "wof:country": "US",
     "wof:created": 1646409876,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -81,12 +89,13 @@
     ],
     "wof:id": 1763198695,
     "wof:involves": [
-      102527513,
       102534365,
       1159283813,
-      1745882107
+      1745882107,
+      1159289871,
+      102527513
     ],
-    "wof:lastmodified": 1646409876,
+    "wof:lastmodified": 1646411045,
     "wof:name": "AS14 (JFK-SFO)",
     "wof:parent_id": 1745882107,
     "wof:placetype": "custom",
