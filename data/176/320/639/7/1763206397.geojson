@@ -1,0 +1,69 @@
+{
+  "id": 1763206397,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2022-03-04",
+    "date:inception_upper": "2022-03-04",
+    "edtf:cessation": "",
+    "edtf:inception": "2022-03-04",
+    "flysfo:actual_timestamp": 1646438400,
+    "flysfo:airline": "AA",
+    "flysfo:date": "2022-03-04",
+    "flysfo:estimated_timestamp": 1646437800,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "AA2917",
+    "flysfo:gate": "",
+    "flysfo:journey": "TWF-SFO",
+    "flysfo:scheduled_timestamp": 1646436060,
+    "flysfo:timestamp": 1646438400,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-114.487540,42.481580",
+    "geom:latitude": 40.049785,
+    "geom:longitude": -118.42924149999999,
+    "iata:airline": "AA",
+    "icao:airline": "AAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283849,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102527881,
+    "sfomuseum:flight_id": "20220304-A-AAL-2917",
+    "sfomuseum:flight_number": [
+      "AAL2917",
+      "AA2917"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1646496089,
+    "wof:geomhash": "6d97a5d0bd712725cf5ae6c0f31b2234",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1763206397
+      }
+    ],
+    "wof:id": 1763206397,
+    "wof:involves": [
+      102527513,
+      102527881,
+      1159283849,
+      -1
+    ],
+    "wof:lastmodified": 1646496089,
+    "wof:name": "AA2917 (TWF-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2022-03",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -114.48754,
+    42.48158
+  ],
+  "geometry": {"coordinates":[[-114.48754,42.48158],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
