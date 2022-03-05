@@ -2,10 +2,12 @@
   "id": 1763210863,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-04",
+    "date:cessation_upper": "2022-03-04",
     "date:inception_lower": "2022-03-04",
     "date:inception_upper": "2022-03-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-04",
+    "edtf:cessation": "2022-03-04T21:25:00Z",
+    "edtf:inception": "2022-03-04T03:21:23-08:00",
     "flysfo:actual_timestamp": 1646420040,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.333376,
     "geom:longitude": -114.4957645,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102529173,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N802UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16894401"
+    },
     "wof:country": "US",
     "wof:created": 1646497263,
     "wof:geomhash": "029159a11f35cb7f92e728b838da58ba",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763210863,
     "wof:involves": [
-      102529173,
       102527513,
       1159285413,
-      1745882255
+      1745882255,
+      1159289407,
+      102529173
     ],
-    "wof:lastmodified": 1646497263,
+    "wof:lastmodified": 1646497411,
     "wof:name": "UA1483 (SFO-ABQ)",
     "wof:parent_id": 1745882255,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1763208359,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-04",
+    "date:cessation_upper": "2022-03-04",
     "date:inception_lower": "2022-03-04",
     "date:inception_upper": "2022-03-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-04",
+    "edtf:cessation": "2022-03-04T23:17:00Z",
+    "edtf:inception": "2022-03-04T21:40:00Z",
     "flysfo:actual_timestamp": 1646436360,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N414UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16911038",
+      "swim:gufi": "KA67104600"
+    },
     "wof:country": "US",
     "wof:created": 1646496619,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -84,9 +97,10 @@
       102527513,
       102526751,
       1159285413,
-      1745882255
+      1745882255,
+      1159292085
     ],
-    "wof:lastmodified": 1646496619,
+    "wof:lastmodified": 1646497418,
     "wof:name": "UA1447 (PHX-SFO)",
     "wof:parent_id": 1745882255,
     "wof:placetype": "custom",

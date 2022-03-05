@@ -2,10 +2,12 @@
   "id": 1763211013,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-05",
+    "date:cessation_upper": "2022-03-05",
     "date:inception_lower": "2022-03-04",
     "date:inception_upper": "2022-03-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-04",
+    "edtf:cessation": "2022-03-05T01:01:00Z",
+    "edtf:inception": "2022-03-04T22:59:00Z",
     "flysfo:actual_timestamp": 1646433960,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N57852",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16918309",
+      "swim:gufi": "KO76379600"
+    },
     "wof:country": "US",
     "wof:created": 1646497305,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763211013,
     "wof:involves": [
+      1159289945,
       102531189,
       102527513,
       1159285413,
       1745882277
     ],
-    "wof:lastmodified": 1646497305,
+    "wof:lastmodified": 1646497413,
     "wof:name": "UA2443 (SFO-DEN)",
     "wof:parent_id": 1745882277,
     "wof:placetype": "custom",

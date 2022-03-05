@@ -2,10 +2,12 @@
   "id": 1763208429,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-03-04",
-    "date:inception_upper": "2022-03-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-04",
+    "date:cessation_lower": "2022-03-04",
+    "date:cessation_upper": "2022-03-04",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2022-03-04T12:28:12-08:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": 1646454720,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.7213045,
     "geom:longitude": -119.4384925,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620791,
     "lbl:longitude": -122.390014,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533591,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N414UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -84,9 +93,10 @@
       102527513,
       102533591,
       1159285413,
-      1745882285
+      1745882285,
+      1159292085
     ],
-    "wof:lastmodified": 1646496637,
+    "wof:lastmodified": 1646497419,
     "wof:name": "UA1936 (PSP-SFO)",
     "wof:parent_id": 1745882285,
     "wof:placetype": "custom",

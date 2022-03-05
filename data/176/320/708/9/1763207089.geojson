@@ -2,10 +2,12 @@
   "id": 1763207089,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-03-04",
-    "date:inception_upper": "2022-03-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-04",
+    "date:cessation_lower": "2022-03-04",
+    "date:cessation_upper": "2022-03-04",
+    "date:inception_lower": "2022-03-05",
+    "date:inception_upper": "2022-03-05",
+    "edtf:cessation": "2022-03-04T04:52:00Z",
+    "edtf:inception": "2022-03-05T01:29:00Z",
     "flysfo:actual_timestamp": 1646457420,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-03-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.139362,
     "geom:longitude": -113.8106995,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536481,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N845VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16831929"
+    },
     "wof:country": "US",
     "wof:created": 1646496291,
     "wof:geomhash": "87e43b321087b5e7d68ac47fe0a6e824",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763207089,
     "wof:involves": [
+      1159292085,
       102527513,
       102536481,
       1159283813,
       1745882399
     ],
-    "wof:lastmodified": 1646496291,
+    "wof:lastmodified": 1646497410,
     "wof:name": "AS1273 (PVR-SFO)",
     "wof:parent_id": 1745882399,
     "wof:placetype": "custom",
