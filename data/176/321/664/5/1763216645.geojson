@@ -2,10 +2,12 @@
   "id": 1763216645,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-03-05",
-    "date:inception_upper": "2022-03-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-05",
+    "date:cessation_lower": "2022-03-06",
+    "date:cessation_upper": "2022-03-06",
+    "date:inception_lower": "2022-03-06",
+    "date:inception_upper": "2022-03-06",
+    "edtf:cessation": "2022-03-06T05:06:00Z",
+    "edtf:inception": "2022-03-06T00:11:00Z",
     "flysfo:actual_timestamp": 1646524740,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-03-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N188DN",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "16925861",
+      "swim:gufi": "KO83765700"
+    },
     "wof:country": "US",
     "wof:created": 1646583352,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763216645,
     "wof:involves": [
+      1159289965,
       102534365,
       102527513,
       1159284261,
       1745882211
     ],
-    "wof:lastmodified": 1646583352,
+    "wof:lastmodified": 1646583717,
     "wof:name": "DL442 (SFO-JFK)",
     "wof:parent_id": 1745882211,
     "wof:placetype": "custom",
