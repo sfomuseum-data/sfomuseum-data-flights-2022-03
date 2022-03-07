@@ -2,10 +2,12 @@
   "id": 1763222231,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-06",
+    "date:cessation_upper": "2022-03-06",
     "date:inception_lower": "2022-03-06",
     "date:inception_upper": "2022-03-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-06",
+    "edtf:cessation": "2022-03-06T23:08:00Z",
+    "edtf:inception": "2022-03-06T22:02:00Z",
     "flysfo:actual_timestamp": 1646608380,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.7213045,
     "geom:longitude": -119.4384925,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620791,
     "lbl:longitude": -122.390014,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533591,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N68880",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17083370",
+      "swim:gufi": "KL69192100"
+    },
     "wof:country": "US",
     "wof:created": 1646669430,
     "wof:geomhash": "a35a6e87f0ae0f1f716f88067ee31aa3",
@@ -84,9 +97,10 @@
       102527513,
       102533591,
       1159285413,
-      1745882285
+      1745882285,
+      1377564285
     ],
-    "wof:lastmodified": 1646669430,
+    "wof:lastmodified": 1646670214,
     "wof:name": "UA2631 (PSP-SFO)",
     "wof:parent_id": 1745882285,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1763223375,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-06",
+    "date:cessation_upper": "2022-03-06",
     "date:inception_lower": "2022-03-06",
     "date:inception_upper": "2022-03-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-06",
+    "edtf:cessation": "2022-03-06T16:43:37Z",
+    "edtf:inception": "2022-03-06T00:02:38-08:00",
     "flysfo:actual_timestamp": 1646581500,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-03-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.618149,
     "lbl:longitude": -122.381669,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N851VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17056060"
+    },
     "wof:country": "US",
     "wof:created": 1646669720,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763223375,
     "wof:involves": [
-      102533795,
-      102527513,
       1159283813,
-      1745882117
+      1745882117,
+      1159292085,
+      102533795,
+      102527513
     ],
-    "wof:lastmodified": 1646669720,
+    "wof:lastmodified": 1646670205,
     "wof:name": "AS214 (SFO-LAX)",
     "wof:parent_id": 1745882117,
     "wof:placetype": "custom",

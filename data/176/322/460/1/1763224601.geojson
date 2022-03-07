@@ -2,10 +2,12 @@
   "id": 1763224601,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-07",
+    "date:cessation_upper": "2022-03-07",
     "date:inception_lower": "2022-03-06",
     "date:inception_upper": "2022-03-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-06",
+    "edtf:cessation": "2022-03-07T05:20:34Z",
+    "edtf:inception": "2022-03-06T09:42:25-08:00",
     "flysfo:actual_timestamp": 1646616240,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618102,
     "lbl:longitude": -122.38769,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N488UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO83678100"
+    },
     "wof:country": "US",
     "wof:created": 1646670070,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763224601,
     "wof:involves": [
+      1745882251,
+      1159292085,
       102533631,
       102527513,
-      1159285413,
-      1745882251
+      1159285413
     ],
-    "wof:lastmodified": 1646670070,
+    "wof:lastmodified": 1646670216,
     "wof:name": "UA1829 (SFO-ORD)",
     "wof:parent_id": 1745882251,
     "wof:placetype": "custom",

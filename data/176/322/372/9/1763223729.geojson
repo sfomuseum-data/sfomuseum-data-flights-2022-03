@@ -2,10 +2,12 @@
   "id": 1763223729,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-07",
+    "date:cessation_upper": "2022-03-07",
     "date:inception_lower": "2022-03-06",
     "date:inception_upper": "2022-03-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-06",
+    "edtf:cessation": "2022-03-07T09:24:25Z",
+    "edtf:inception": "2022-03-06T23:05:00Z",
     "flysfo:actual_timestamp": 1646606700,
     "flysfo:airline": "LH",
     "flysfo:date": "2022-03-06",
@@ -48,6 +50,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17090753"
+    },
     "wof:country": "US",
     "wof:created": 1646669811,
     "wof:geomhash": "a63fc4dac3cd4064d907a0b9ef33a7bc",
@@ -86,7 +91,7 @@
       1159286015,
       1745882431
     ],
-    "wof:lastmodified": 1646669811,
+    "wof:lastmodified": 1646670206,
     "wof:name": "LH455 (SFO-FRA)",
     "wof:parent_id": 1745882431,
     "wof:placetype": "custom",

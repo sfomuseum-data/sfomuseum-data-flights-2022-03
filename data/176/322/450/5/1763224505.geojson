@@ -2,10 +2,12 @@
   "id": 1763224505,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-07",
+    "date:cessation_upper": "2022-03-07",
     "date:inception_lower": "2022-03-06",
     "date:inception_upper": "2022-03-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-06",
+    "edtf:cessation": "2022-03-07T14:54:04Z",
+    "edtf:inception": "2022-03-06T23:56:00Z",
     "flysfo:actual_timestamp": 1646609940,
     "flysfo:airline": "EK",
     "flysfo:date": "2022-03-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.4340265,
     "geom:longitude": -33.504103,
     "iata:airline": "EK",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAE",
     "lbl:latitude": 37.612674,
     "lbl:longitude": -122.389174,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159284333,
     "sfomuseum:arrival_id": 102558433,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "A6EQF",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17151361"
+    },
     "wof:country": "US",
     "wof:created": 1646670046,
     "wof:geomhash": "db1125d5f6b158d369f65fa73fc455da",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763224505,
     "wof:involves": [
+      1159289993,
       102558433,
       102527513,
       1159284333,
       1745882377
     ],
-    "wof:lastmodified": 1646670046,
+    "wof:lastmodified": 1646670208,
     "wof:name": "EK226 (SFO-DXB)",
     "wof:parent_id": 1745882377,
     "wof:placetype": "custom",

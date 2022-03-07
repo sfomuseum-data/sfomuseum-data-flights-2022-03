@@ -2,10 +2,12 @@
   "id": 1763222443,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-03-06",
-    "date:inception_upper": "2022-03-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-06",
+    "date:cessation_lower": "2022-03-06",
+    "date:cessation_upper": "2022-03-06",
+    "date:inception_lower": "2022-03-07",
+    "date:inception_upper": "2022-03-07",
+    "edtf:cessation": "2022-03-06T09:15:31-08:00",
+    "edtf:inception": "2022-03-07T00:10:00Z",
     "flysfo:actual_timestamp": 1646616060,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.647857,
     "geom:longitude": -120.1186115,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617835,
     "lbl:longitude": -122.388019,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534161,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N463UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KL75159100"
+    },
     "wof:country": "US",
     "wof:created": 1646669485,
     "wof:geomhash": "01009f732d03a7803d3f7fd23cf321f4",
@@ -84,9 +96,10 @@
       102527513,
       102534161,
       1159285413,
-      1745882249
+      1745882249,
+      1159292085
     ],
-    "wof:lastmodified": 1646669485,
+    "wof:lastmodified": 1646670203,
     "wof:name": "UA690 (SNA-SFO)",
     "wof:parent_id": 1745882249,
     "wof:placetype": "custom",

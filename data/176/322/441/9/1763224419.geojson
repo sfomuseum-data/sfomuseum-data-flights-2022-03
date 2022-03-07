@@ -2,10 +2,12 @@
   "id": 1763224419,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-06",
+    "date:cessation_upper": "2022-03-06",
     "date:inception_lower": "2022-03-06",
     "date:inception_upper": "2022-03-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-06",
+    "edtf:cessation": "2022-03-06T20:22:00Z",
+    "edtf:inception": "2022-03-06T19:28:00Z",
     "flysfo:actual_timestamp": 1646594400,
     "flysfo:airline": "WN",
     "flysfo:date": "2022-03-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N8650F",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +56,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17074240"
+    },
     "wof:country": "US",
     "wof:created": 1646670018,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -81,12 +92,13 @@
     ],
     "wof:id": 1763224419,
     "wof:involves": [
+      1159289871,
       102533795,
       102527513,
       1159285591,
       1745882157
     ],
-    "wof:lastmodified": 1646670018,
+    "wof:lastmodified": 1646670207,
     "wof:name": "WN2115 (SFO-LAX)",
     "wof:parent_id": 1745882157,
     "wof:placetype": "custom",

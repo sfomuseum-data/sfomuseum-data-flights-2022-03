@@ -2,10 +2,12 @@
   "id": 1763223709,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-06",
+    "date:cessation_upper": "2022-03-06",
     "date:inception_lower": "2022-03-06",
     "date:inception_upper": "2022-03-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-06",
+    "edtf:cessation": "2022-03-06T20:15:00Z",
+    "edtf:inception": "2022-03-06T00:59:25-08:00",
     "flysfo:actual_timestamp": 1646585040,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-03-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.2506555,
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
+    "icao:aircraft": "A321",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614759,
     "lbl:longitude": -122.382707,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102531131,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N353DN",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17060732",
+      "swim:gufi": "KO57366100"
+    },
     "wof:country": "US",
     "wof:created": 1646669806,
     "wof:geomhash": "bbdc3c5edf2b2678c807f6144214d82c",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763223709,
     "wof:involves": [
-      102531131,
-      102527513,
       1159284261,
-      1745882207
+      1745882207,
+      1159289411,
+      102531131,
+      102527513
     ],
-    "wof:lastmodified": 1646669806,
+    "wof:lastmodified": 1646670206,
     "wof:name": "DL735 (SFO-MSP)",
     "wof:parent_id": 1745882207,
     "wof:placetype": "custom",
