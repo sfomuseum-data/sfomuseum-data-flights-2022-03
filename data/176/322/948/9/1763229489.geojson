@@ -2,10 +2,12 @@
   "id": 1763229489,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-07",
+    "date:cessation_upper": "2022-03-07",
     "date:inception_lower": "2022-03-07",
     "date:inception_upper": "2022-03-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-07",
+    "edtf:cessation": "2022-03-07T23:39:00Z",
+    "edtf:inception": "2022-03-07T21:01:00Z",
     "flysfo:actual_timestamp": 1646697600,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.419084999999995,
     "geom:longitude": -112.0399525,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102529249,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N76517",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "17144749",
+      "swim:gufi": "KA73644200"
+    },
     "wof:country": "US",
     "wof:created": 1646755842,
     "wof:geomhash": "4950ee3446b3bceb23f284f0ade1f651",
@@ -45,12 +58,12 @@
     ],
     "wof:id": 1763229489,
     "wof:involves": [
+      1159289871,
       102527513,
       102529249,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1646755842,
+    "wof:lastmodified": 1646756570,
     "wof:name": "UA2755 (AMA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

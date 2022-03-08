@@ -2,10 +2,12 @@
   "id": 1763228663,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-08",
+    "date:cessation_upper": "2022-03-08",
     "date:inception_lower": "2022-03-07",
     "date:inception_upper": "2022-03-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-07",
+    "edtf:cessation": "2022-03-08T01:12:04Z",
+    "edtf:inception": "2022-03-07T17:27:23Z",
     "flysfo:actual_timestamp": 1646702400,
     "flysfo:airline": "BF",
     "flysfo:date": "2022-03-07",
@@ -48,6 +50,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17224325"
+    },
     "wof:country": "US",
     "wof:created": 1646755634,
     "wof:geomhash": "cb635fc427df70f0d5f88d1f39ad4ded",
@@ -86,7 +91,7 @@
       1377649073,
       1745882387
     ],
-    "wof:lastmodified": 1646755634,
+    "wof:lastmodified": 1646756562,
     "wof:name": "BF711 (PPT-SFO)",
     "wof:parent_id": 1745882387,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1763230943,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-08",
+    "date:cessation_upper": "2022-03-08",
     "date:inception_lower": "2022-03-07",
     "date:inception_upper": "2022-03-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-07",
+    "edtf:cessation": "2022-03-08T00:12:00Z",
+    "edtf:inception": "2022-03-07T20:14:00Z",
     "flysfo:actual_timestamp": 1646683140,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-03-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.627254,
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102526927,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N1603",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17149541",
+      "swim:gufi": "KO69006200"
+    },
     "wof:country": "US",
     "wof:created": 1646756200,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763230943,
     "wof:involves": [
+      1159289965,
       102526927,
       102527513,
       1159284261,
       1745882211
     ],
-    "wof:lastmodified": 1646756200,
+    "wof:lastmodified": 1646756559,
     "wof:name": "DL555 (SFO-ATL)",
     "wof:parent_id": 1745882211,
     "wof:placetype": "custom",

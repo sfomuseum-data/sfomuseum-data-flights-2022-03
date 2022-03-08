@@ -2,10 +2,12 @@
   "id": 1763228449,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-07",
+    "date:cessation_upper": "2022-03-07",
     "date:inception_lower": "2022-03-07",
     "date:inception_upper": "2022-03-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-07",
+    "edtf:cessation": "2022-03-07T14:49:44-08:00",
+    "edtf:inception": "2022-03-07T23:29:34Z",
     "flysfo:actual_timestamp": 1646722980,
     "flysfo:airline": "CM",
     "flysfo:date": "2022-03-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 23.344675,
     "geom:longitude": -100.87722099999999,
     "iata:airline": "CM",
+    "icao:aircraft": "B39M",
     "icao:airline": "CMP",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159284211,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102547051,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17164781"
+    },
     "wof:country": "US",
     "wof:created": 1646755579,
     "wof:geomhash": "a24fa29091ad40e8c2dcacd18340610c",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763228449,
     "wof:involves": [
+      1528104577,
       102527513,
       102547051,
       1159284211,
       1745882373
     ],
-    "wof:lastmodified": 1646755579,
+    "wof:lastmodified": 1646756560,
     "wof:name": "CM382 (PTY-SFO)",
     "wof:parent_id": 1745882373,
     "wof:placetype": "custom",
