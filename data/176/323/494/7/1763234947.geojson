@@ -2,10 +2,12 @@
   "id": 1763234947,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-08",
+    "date:cessation_upper": "2022-03-08",
     "date:inception_lower": "2022-03-08",
     "date:inception_upper": "2022-03-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-08",
+    "edtf:cessation": "2022-03-08T03:21:44-08:00",
+    "edtf:inception": "2022-03-08T17:20:00Z",
     "flysfo:actual_timestamp": 1646767740,
     "flysfo:airline": "AC",
     "flysfo:date": "2022-03-08",
@@ -21,6 +23,7 @@
     "geom:latitude": 43.40566,
     "geom:longitude": -122.7750715,
     "iata:airline": "AC",
+    "icao:aircraft": "BCS3",
     "icao:airline": "ACA",
     "lbl:latitude": 37.61776,
     "lbl:longitude": -122.3918,
@@ -34,6 +37,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CGMYU",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17208938"
+    },
     "wof:country": "US",
     "wof:created": 1646841799,
     "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
@@ -86,7 +98,7 @@
       1159283597,
       1745882411
     ],
-    "wof:lastmodified": 1646841799,
+    "wof:lastmodified": 1646842948,
     "wof:name": "AC572 (YVR-SFO)",
     "wof:parent_id": 1745882411,
     "wof:placetype": "custom",
