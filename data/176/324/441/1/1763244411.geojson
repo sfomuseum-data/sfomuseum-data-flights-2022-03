@@ -2,10 +2,12 @@
   "id": 1763244411,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-09",
+    "date:cessation_upper": "2022-03-09",
     "date:inception_lower": "2022-03-09",
     "date:inception_upper": "2022-03-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-09",
+    "edtf:cessation": "2022-03-09T01:13:01-08:00",
+    "edtf:inception": "2022-03-09T16:00:00Z",
     "flysfo:actual_timestamp": 1646846280,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-09",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617477,
     "lbl:longitude": -122.388302,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528997,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N467UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17278265",
+      "swim:gufi": "KL48414400"
+    },
     "wof:country": "US",
     "wof:created": 1646928634,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -84,9 +98,10 @@
       102527513,
       102528997,
       1159285413,
-      1745882247
+      1745882247,
+      1159292085
     ],
-    "wof:lastmodified": 1646928634,
+    "wof:lastmodified": 1646929403,
     "wof:name": "UA2480 (SAN-SFO)",
     "wof:parent_id": 1745882247,
     "wof:placetype": "custom",

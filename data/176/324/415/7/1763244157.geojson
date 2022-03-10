@@ -2,10 +2,12 @@
   "id": 1763244157,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-09",
+    "date:cessation_upper": "2022-03-09",
     "date:inception_lower": "2022-03-09",
     "date:inception_upper": "2022-03-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-09",
+    "edtf:cessation": "2022-03-09T08:09:00Z",
+    "edtf:inception": "2022-03-09T05:51:00Z",
     "flysfo:actual_timestamp": 1646813400,
     "flysfo:airline": "WN",
     "flysfo:date": "2022-03-09",
@@ -48,6 +50,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17253097"
+    },
     "wof:country": "US",
     "wof:created": 1646928568,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -86,7 +91,7 @@
       1159285591,
       1745882149
     ],
-    "wof:lastmodified": 1646928568,
+    "wof:lastmodified": 1646929388,
     "wof:name": "WN2345 (DEN-SFO)",
     "wof:parent_id": 1745882149,
     "wof:placetype": "custom",
