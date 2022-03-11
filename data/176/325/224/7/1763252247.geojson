@@ -2,10 +2,12 @@
   "id": 1763252247,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-10",
+    "date:cessation_upper": "2022-03-10",
     "date:inception_lower": "2022-03-10",
     "date:inception_upper": "2022-03-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-10",
+    "edtf:cessation": "2022-03-10T15:29:31Z",
+    "edtf:inception": "2022-03-10T00:15:06Z",
     "flysfo:actual_timestamp": 1646926440,
     "flysfo:airline": "SQ",
     "flysfo:date": "2022-03-10",
@@ -48,6 +50,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17328135"
+    },
     "wof:country": "US",
     "wof:created": 1647015018,
     "wof:geomhash": "b883d8e3c3c604f714c4dc756f6c1133",
@@ -86,7 +91,7 @@
       1159286259,
       1745882423
     ],
-    "wof:lastmodified": 1647015018,
+    "wof:lastmodified": 1647015917,
     "wof:name": "SQ32 (SIN-SFO)",
     "wof:parent_id": 1745882423,
     "wof:placetype": "custom",

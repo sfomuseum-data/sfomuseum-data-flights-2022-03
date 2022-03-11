@@ -2,10 +2,12 @@
   "id": 1763255001,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-03-10",
-    "date:inception_upper": "2022-03-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-10",
+    "date:cessation_lower": "2022-03-10",
+    "date:cessation_upper": "2022-03-10",
+    "date:inception_lower": "2022-03-11",
+    "date:inception_upper": "2022-03-11",
+    "edtf:cessation": "2022-03-10T11:58:00Z",
+    "edtf:inception": "2022-03-10T16:58:35-08:00",
     "flysfo:actual_timestamp": 1646956800,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.797588,
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617477,
     "lbl:longitude": -122.388302,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534097,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N422UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17341001",
+      "swim:gufi": "KO20305500"
+    },
     "wof:country": "US",
     "wof:created": 1647015773,
     "wof:geomhash": "4d8eca8dfd12d13a56951180b27dbf13",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763255001,
     "wof:involves": [
+      1159292085,
       102534097,
       102527513,
       1159285413,
       1745882247
     ],
-    "wof:lastmodified": 1647015773,
+    "wof:lastmodified": 1647015932,
     "wof:name": "UA1484 (SFO-IAH)",
     "wof:parent_id": 1745882247,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1763252425,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-10",
+    "date:cessation_upper": "2022-03-10",
     "date:inception_lower": "2022-03-10",
     "date:inception_upper": "2022-03-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-10",
+    "edtf:cessation": "2022-03-10T22:57:00Z",
+    "edtf:inception": "2022-03-10T20:44:00Z",
     "flysfo:actual_timestamp": 1646954400,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620533,
     "lbl:longitude": -122.389374,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
+    "swim:tail_number": "N37528",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +56,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17388990"
+    },
     "wof:country": "US",
     "wof:created": 1647015066,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -81,12 +92,13 @@
     ],
     "wof:id": 1763252425,
     "wof:involves": [
+      1528104577,
       102527513,
       102531189,
       1159285413,
       1745882283
     ],
-    "wof:lastmodified": 1647015066,
+    "wof:lastmodified": 1647015918,
     "wof:name": "UA1478 (DEN-SFO)",
     "wof:parent_id": 1745882283,
     "wof:placetype": "custom",
