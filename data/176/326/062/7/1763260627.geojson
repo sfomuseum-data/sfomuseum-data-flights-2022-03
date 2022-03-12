@@ -2,10 +2,12 @@
   "id": 1763260627,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-11",
+    "date:cessation_upper": "2022-03-11",
     "date:inception_lower": "2022-03-11",
     "date:inception_upper": "2022-03-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-11",
+    "edtf:cessation": "2022-03-11T14:27:40-08:00",
+    "edtf:inception": "2022-03-11T04:45:00Z",
     "flysfo:actual_timestamp": 1647066720,
     "flysfo:airline": "WN",
     "flysfo:date": "2022-03-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.702760999999995,
     "geom:longitude": -105.058423,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531205,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N500WR",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17421659"
+    },
     "wof:country": "US",
     "wof:created": 1647101390,
     "wof:geomhash": "bbd014edfd8455b7d9e062bec23e52e6",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763260627,
     "wof:involves": [
+      1159289871,
       102527513,
       102531205,
       1159285591,
       1745882153
     ],
-    "wof:lastmodified": 1647101390,
+    "wof:lastmodified": 1647102247,
     "wof:name": "WN2534 (MDW-SFO)",
     "wof:parent_id": 1745882153,
     "wof:placetype": "custom",
