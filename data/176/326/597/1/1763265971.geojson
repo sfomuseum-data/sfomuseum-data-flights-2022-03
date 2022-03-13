@@ -2,10 +2,12 @@
   "id": 1763265971,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-12",
+    "date:cessation_upper": "2022-03-12",
     "date:inception_lower": "2022-03-12",
     "date:inception_upper": "2022-03-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-12",
+    "edtf:cessation": "2022-03-12T23:41:55Z",
+    "edtf:inception": "2022-03-12T21:44:00Z",
     "flysfo:actual_timestamp": 1647128940,
     "flysfo:airline": "AC",
     "flysfo:date": "2022-03-12",
@@ -48,6 +50,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17571602"
+    },
     "wof:country": "US",
     "wof:created": 1647187412,
     "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
@@ -86,7 +91,7 @@
       1159283597,
       1745882409
     ],
-    "wof:lastmodified": 1647187412,
+    "wof:lastmodified": 1647188571,
     "wof:name": "AC574 (YVR-SFO)",
     "wof:parent_id": 1745882409,
     "wof:placetype": "custom",

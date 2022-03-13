@@ -2,10 +2,12 @@
   "id": 1763270329,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-13",
+    "date:cessation_upper": "2022-03-13",
     "date:inception_lower": "2022-03-12",
     "date:inception_upper": "2022-03-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-12",
+    "edtf:cessation": "2022-03-13T08:59:00Z",
+    "edtf:inception": "2022-03-12T23:05:00Z",
     "flysfo:actual_timestamp": 1647125160,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 43.312922,
     "geom:longitude": -59.914066999999996,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102544459,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N76021",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17577419",
+      "swim:gufi": "KO68285700"
+    },
     "wof:country": "US",
     "wof:created": 1647188543,
     "wof:geomhash": "ad7dd7ece479a882a3440fb19be6ff4c",
@@ -84,9 +97,10 @@
       102544459,
       102527513,
       1159285413,
-      1745882417
+      1745882417,
+      1159289985
     ],
-    "wof:lastmodified": 1647188543,
+    "wof:lastmodified": 1647188571,
     "wof:name": "UA990 (SFO-CDG)",
     "wof:parent_id": 1745882417,
     "wof:placetype": "custom",

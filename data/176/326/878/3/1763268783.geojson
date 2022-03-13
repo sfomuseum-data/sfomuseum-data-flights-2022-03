@@ -2,10 +2,12 @@
   "id": 1763268783,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-12",
+    "date:cessation_upper": "2022-03-12",
     "date:inception_lower": "2022-03-12",
     "date:inception_upper": "2022-03-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-12",
+    "edtf:cessation": "2022-03-12T21:55:31Z",
+    "edtf:inception": "2022-03-12T03:09:50-08:00",
     "flysfo:actual_timestamp": 1647111240,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-03-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 30.3918365,
     "geom:longitude": -114.320702,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102536385,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N305AS",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17558865"
+    },
     "wof:country": "US",
     "wof:created": 1647188144,
     "wof:geomhash": "7bdc8b57b1c15e4e8579738f9a9fedfd",
@@ -84,9 +97,10 @@
       102536385,
       102527513,
       1159283813,
-      1745882103
+      1745882103,
+      1377564285
     ],
-    "wof:lastmodified": 1647188144,
+    "wof:lastmodified": 1647188574,
     "wof:name": "AS298 (SFO-MZT)",
     "wof:parent_id": 1745882103,
     "wof:placetype": "custom",
