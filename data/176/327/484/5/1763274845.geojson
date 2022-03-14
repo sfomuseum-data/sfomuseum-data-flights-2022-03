@@ -2,10 +2,12 @@
   "id": 1763274845,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-13",
+    "date:cessation_upper": "2022-03-13",
     "date:inception_lower": "2022-03-13",
     "date:inception_upper": "2022-03-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-13",
+    "edtf:cessation": "2022-03-13T10:09:25-07:00",
+    "edtf:inception": "2022-03-13T23:08:00Z",
     "flysfo:actual_timestamp": 1647216960,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.647857,
     "geom:longitude": -120.1186115,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617477,
     "lbl:longitude": -122.388302,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534161,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N832UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17651441",
+      "swim:gufi": "KL74034100"
+    },
     "wof:country": "US",
     "wof:created": 1647274332,
     "wof:geomhash": "01009f732d03a7803d3f7fd23cf321f4",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763274845,
     "wof:involves": [
-      102527513,
-      102534161,
       1159285413,
-      1745882247
+      1745882247,
+      1159289407,
+      102527513,
+      102534161
     ],
-    "wof:lastmodified": 1647274332,
+    "wof:lastmodified": 1647275018,
     "wof:name": "UA690 (SNA-SFO)",
     "wof:parent_id": 1745882247,
     "wof:placetype": "custom",

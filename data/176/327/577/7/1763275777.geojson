@@ -2,10 +2,12 @@
   "id": 1763275777,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-14",
+    "date:cessation_upper": "2022-03-14",
     "date:inception_lower": "2022-03-13",
     "date:inception_upper": "2022-03-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-13",
+    "edtf:cessation": "2022-03-14T00:12:00Z",
+    "edtf:inception": "2022-03-13T22:41:00Z",
     "flysfo:actual_timestamp": 1647210120,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-03-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102532251,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N584AS",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17644076"
+    },
     "wof:country": "US",
     "wof:created": 1647274566,
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763275777,
     "wof:involves": [
+      1159289871,
       102532251,
       102527513,
       1159283813,
       1745882097
     ],
-    "wof:lastmodified": 1647274566,
+    "wof:lastmodified": 1647275020,
     "wof:name": "AS218 (SFO-PDX)",
     "wof:parent_id": 1745882097,
     "wof:placetype": "custom",

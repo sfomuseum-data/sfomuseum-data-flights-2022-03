@@ -2,10 +2,12 @@
   "id": 1763276845,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-03-13",
-    "date:inception_upper": "2022-03-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-13",
+    "date:cessation_lower": "2022-03-14",
+    "date:cessation_upper": "2022-03-14",
+    "date:inception_lower": "2022-03-14",
+    "date:inception_upper": "2022-03-14",
+    "edtf:cessation": "2022-03-14T03:26:00Z",
+    "edtf:inception": "2022-03-14T02:35:00Z",
     "flysfo:actual_timestamp": 1647224880,
     "flysfo:airline": "WN",
     "flysfo:date": "2022-03-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 18.808995,
     "geom:longitude": -61.1854715,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 1746879083,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N7740A",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -81,12 +90,13 @@
     ],
     "wof:id": 1763276845,
     "wof:involves": [
+      1745882151,
+      1159289869,
       1746879083,
       102527513,
-      1159285591,
-      1745882151
+      1159285591
     ],
-    "wof:lastmodified": 1647274837,
+    "wof:lastmodified": 1647275022,
     "wof:name": "WN2397 (SFO-BUR)",
     "wof:parent_id": 1745882151,
     "wof:placetype": "custom",

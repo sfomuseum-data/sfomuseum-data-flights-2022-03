@@ -2,10 +2,12 @@
   "id": 1763274853,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-03-13",
-    "date:inception_upper": "2022-03-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-13",
+    "date:cessation_lower": "2022-03-13",
+    "date:cessation_upper": "2022-03-13",
+    "date:inception_lower": "2022-03-14",
+    "date:inception_upper": "2022-03-14",
+    "edtf:cessation": "2022-03-13T14:13:09-07:00",
+    "edtf:inception": "2022-03-14T02:45:00Z",
     "flysfo:actual_timestamp": 1647212400,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619367,
     "lbl:longitude": -122.38387,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527363,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N406UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17639959",
+      "swim:gufi": "KU07657200"
+    },
     "wof:country": "US",
     "wof:created": 1647274334,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -84,9 +98,10 @@
       102527513,
       102527363,
       1159285413,
-      1745882317
+      1745882317,
+      1159292085
     ],
-    "wof:lastmodified": 1647274334,
+    "wof:lastmodified": 1647275018,
     "wof:name": "UA730 (SLC-SFO)",
     "wof:parent_id": 1745882317,
     "wof:placetype": "custom",

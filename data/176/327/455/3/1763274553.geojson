@@ -2,10 +2,12 @@
   "id": 1763274553,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-13",
+    "date:cessation_upper": "2022-03-13",
     "date:inception_lower": "2022-03-13",
     "date:inception_upper": "2022-03-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-13",
+    "edtf:cessation": "2022-03-13T08:14:14-07:00",
+    "edtf:inception": "2022-03-13T21:29:00Z",
     "flysfo:actual_timestamp": 1647209940,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.022982,
     "geom:longitude": -121.104038,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620929,
     "lbl:longitude": -122.390272,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527337,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N26226",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17642299",
+      "swim:gufi": "KL63643100"
+    },
     "wof:country": "US",
     "wof:created": 1647274256,
     "wof:geomhash": "aae625247f3652ef8a50cae9f49d2791",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763274553,
     "wof:involves": [
+      1159289871,
       102527513,
       102527337,
       1159285413,
       1745882291
     ],
-    "wof:lastmodified": 1647274256,
+    "wof:lastmodified": 1647275017,
     "wof:name": "UA1856 (SBA-SFO)",
     "wof:parent_id": 1745882291,
     "wof:placetype": "custom",
