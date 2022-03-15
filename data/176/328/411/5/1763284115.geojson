@@ -2,10 +2,12 @@
   "id": 1763284115,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-15",
+    "date:cessation_upper": "2022-03-15",
     "date:inception_lower": "2022-03-14",
     "date:inception_upper": "2022-03-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-14",
+    "edtf:cessation": "2022-03-15T01:59:06Z",
+    "edtf:inception": "2022-03-14T21:01:00Z",
     "flysfo:actual_timestamp": 1647290520,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-03-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AS",
+    "icao:aircraft": "A21N",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N924VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +56,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17724992"
+    },
     "wof:country": "US",
     "wof:created": 1647360978,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -81,12 +92,13 @@
     ],
     "wof:id": 1763284115,
     "wof:involves": [
-      102534365,
-      102527513,
       1159283813,
-      1745882103
+      1745882103,
+      1377564297,
+      102534365,
+      102527513
     ],
-    "wof:lastmodified": 1647360978,
+    "wof:lastmodified": 1647361397,
     "wof:name": "AS277 (SFO-JFK)",
     "wof:parent_id": 1745882103,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1763284099,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-14",
+    "date:cessation_upper": "2022-03-14",
     "date:inception_lower": "2022-03-14",
     "date:inception_upper": "2022-03-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-14",
+    "edtf:cessation": "2022-03-14T21:41:14Z",
+    "edtf:inception": "2022-03-14T20:34:00Z",
     "flysfo:actual_timestamp": 1647289140,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-03-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N315AS",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17721870"
+    },
     "wof:country": "US",
     "wof:created": 1647360973,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763284099,
     "wof:involves": [
-      102527209,
       102527513,
       1159283813,
-      1745882101
+      1745882101,
+      1377564285,
+      102527209
     ],
-    "wof:lastmodified": 1647360973,
+    "wof:lastmodified": 1647361397,
     "wof:name": "AS231 (SFO-LAS)",
     "wof:parent_id": 1745882101,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1763282903,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-14",
+    "date:cessation_upper": "2022-03-14",
     "date:inception_lower": "2022-03-14",
     "date:inception_upper": "2022-03-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-14",
+    "edtf:cessation": "2022-03-14T13:56:14-07:00",
+    "edtf:inception": "2022-03-14T23:11:00Z",
     "flysfo:actual_timestamp": 1647317220,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.8002995,
     "geom:longitude": -106.31638749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530009,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N76528",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17735606"
+    },
     "wof:country": "US",
     "wof:created": 1647360673,
     "wof:geomhash": "a7e835886f555fd347028edc152f9d8c",
@@ -84,9 +96,10 @@
       102527513,
       102530009,
       1159285413,
-      1745882277
+      1745882277,
+      1159289871
     ],
-    "wof:lastmodified": 1647360673,
+    "wof:lastmodified": 1647361394,
     "wof:name": "UA2341 (MSY-SFO)",
     "wof:parent_id": 1745882277,
     "wof:placetype": "custom",

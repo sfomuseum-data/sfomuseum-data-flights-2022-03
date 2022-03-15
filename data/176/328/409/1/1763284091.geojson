@@ -2,10 +2,12 @@
   "id": 1763284091,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-14",
+    "date:cessation_upper": "2022-03-14",
     "date:inception_lower": "2022-03-14",
     "date:inception_upper": "2022-03-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-14",
+    "edtf:cessation": "2022-03-14T15:58:39Z",
+    "edtf:inception": "2022-03-14T14:55:00Z",
     "flysfo:actual_timestamp": 1647268980,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-03-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.618149,
     "lbl:longitude": -122.381669,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N842VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17692993"
+    },
     "wof:country": "US",
     "wof:created": 1647360972,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -84,9 +97,10 @@
       102533795,
       102527513,
       1159283813,
-      1745882117
+      1745882117,
+      1159292085
     ],
-    "wof:lastmodified": 1647360972,
+    "wof:lastmodified": 1647361405,
     "wof:name": "AS214 (SFO-LAX)",
     "wof:parent_id": 1745882117,
     "wof:placetype": "custom",
