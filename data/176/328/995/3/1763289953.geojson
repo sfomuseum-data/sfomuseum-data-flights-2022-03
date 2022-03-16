@@ -2,10 +2,12 @@
   "id": 1763289953,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-03-15",
-    "date:inception_upper": "2022-03-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-15",
+    "date:cessation_lower": "2022-03-15",
+    "date:cessation_upper": "2022-03-15",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2022-03-15T10:25:02-07:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": 1647390660,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.333376,
     "geom:longitude": -114.4957645,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621076,
     "lbl:longitude": -122.390239,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102529173,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N418UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -81,12 +89,13 @@
     ],
     "wof:id": 1763289953,
     "wof:involves": [
-      102527513,
       102529173,
       1159285413,
-      1745882293
+      1745882293,
+      1159292085,
+      102527513
     ],
-    "wof:lastmodified": 1647447025,
+    "wof:lastmodified": 1647447815,
     "wof:name": "UA1141 (ABQ-SFO)",
     "wof:parent_id": 1745882293,
     "wof:placetype": "custom",
