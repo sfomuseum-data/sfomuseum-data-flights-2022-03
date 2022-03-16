@@ -1,0 +1,69 @@
+{
+  "id": 1763290245,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2022-03-15",
+    "date:inception_upper": "2022-03-15",
+    "edtf:cessation": "",
+    "edtf:inception": "2022-03-15",
+    "flysfo:actual_timestamp": 1647385200,
+    "flysfo:airline": "UA",
+    "flysfo:date": "2022-03-15",
+    "flysfo:estimated_timestamp": 1647358560,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "UA545",
+    "flysfo:gate": "",
+    "flysfo:journey": "RDM-SFO",
+    "flysfo:scheduled_timestamp": 1647358080,
+    "flysfo:timestamp": 1647385200,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-121.157137,44.259811",
+    "geom:latitude": 40.9389005,
+    "geom:longitude": -121.76404,
+    "iata:airline": "UA",
+    "icao:airline": "UAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285413,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102530507,
+    "sfomuseum:flight_id": "20220315-A-UAL-545",
+    "sfomuseum:flight_number": [
+      "UAL545",
+      "UA545"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1647447101,
+    "wof:geomhash": "e570a09b358444cf621c068c13b8dbc0",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1763290245
+      }
+    ],
+    "wof:id": 1763290245,
+    "wof:involves": [
+      102527513,
+      102530507,
+      1159285413,
+      -1
+    ],
+    "wof:lastmodified": 1647447101,
+    "wof:name": "UA545 (RDM-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2022-03",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -121.157137,
+    44.259811
+  ],
+  "geometry": {"coordinates":[[-121.157137,44.259811],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
