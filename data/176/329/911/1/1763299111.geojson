@@ -2,10 +2,12 @@
   "id": 1763299111,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-17",
+    "date:cessation_upper": "2022-03-17",
     "date:inception_lower": "2022-03-16",
     "date:inception_upper": "2022-03-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-16",
+    "edtf:cessation": "2022-03-17T09:58:12Z",
+    "edtf:inception": "2022-03-16T21:00:00Z",
     "flysfo:actual_timestamp": 1647462720,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-16",
@@ -48,6 +50,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17902632"
+    },
     "wof:country": "US",
     "wof:created": 1647534105,
     "wof:geomhash": "ec4a8fe4d0e09d37ae50bf109072b003",
@@ -86,7 +91,7 @@
       1159285413,
       1745882419
     ],
-    "wof:lastmodified": 1647534105,
+    "wof:lastmodified": 1647534167,
     "wof:name": "UA871 (SFO-TPE)",
     "wof:parent_id": 1745882419,
     "wof:placetype": "custom",

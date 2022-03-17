@@ -2,10 +2,12 @@
   "id": 1763295223,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-16",
+    "date:cessation_upper": "2022-03-16",
     "date:inception_lower": "2022-03-16",
     "date:inception_upper": "2022-03-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-16",
+    "edtf:cessation": "2022-03-16T00:46:12-07:00",
+    "edtf:inception": "2022-03-16T13:14:00Z",
     "flysfo:actual_timestamp": 1647442380,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-03-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616825,
     "lbl:longitude": -122.381021,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533269,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N553AS",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17857801"
+    },
     "wof:country": "US",
     "wof:created": 1647533130,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763295223,
     "wof:involves": [
+      1159289871,
       102527513,
       102533269,
       1159283813,
       1745882099
     ],
-    "wof:lastmodified": 1647533130,
+    "wof:lastmodified": 1647534163,
     "wof:name": "AS159 (SEA-SFO)",
     "wof:parent_id": 1745882099,
     "wof:placetype": "custom",

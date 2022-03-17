@@ -2,10 +2,12 @@
   "id": 1763296705,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-16",
+    "date:cessation_upper": "2022-03-16",
     "date:inception_lower": "2022-03-16",
     "date:inception_upper": "2022-03-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-16",
+    "edtf:cessation": "2022-03-16T16:26:00Z",
+    "edtf:inception": "2022-03-16T14:05:00Z",
     "flysfo:actual_timestamp": 1647447780,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620929,
     "lbl:longitude": -122.390272,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
+    "swim:tail_number": "N56859",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +56,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17861495"
+    },
     "wof:country": "US",
     "wof:created": 1647533507,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -81,12 +92,13 @@
     ],
     "wof:id": 1763296705,
     "wof:involves": [
+      1159289945,
       102527513,
       102531189,
       1159285413,
       1745882291
     ],
-    "wof:lastmodified": 1647533507,
+    "wof:lastmodified": 1647534157,
     "wof:name": "UA646 (DEN-SFO)",
     "wof:parent_id": 1745882291,
     "wof:placetype": "custom",
