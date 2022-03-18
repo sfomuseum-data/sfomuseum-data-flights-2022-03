@@ -2,10 +2,12 @@
   "id": 1763307093,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-18",
+    "date:cessation_upper": "2022-03-18",
     "date:inception_lower": "2022-03-17",
     "date:inception_upper": "2022-03-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-17",
+    "edtf:cessation": "2022-03-18T01:03:00Z",
+    "edtf:inception": "2022-03-17T09:59:02-07:00",
     "flysfo:actual_timestamp": 1647560340,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617477,
     "lbl:longitude": -122.388302,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N839UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO75755500"
+    },
     "wof:country": "US",
     "wof:created": 1647620580,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763307093,
     "wof:involves": [
-      102528997,
       102527513,
       1159285413,
-      1745882247
+      1745882247,
+      1159289407,
+      102528997
     ],
-    "wof:lastmodified": 1647620580,
+    "wof:lastmodified": 1647620682,
     "wof:name": "UA353 (SFO-SAN)",
     "wof:parent_id": 1745882247,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1763307065,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-18",
+    "date:cessation_upper": "2022-03-18",
     "date:inception_lower": "2022-03-17",
     "date:inception_upper": "2022-03-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-17",
+    "edtf:cessation": "2022-03-18T03:22:00Z",
+    "edtf:inception": "2022-03-17T12:16:32-07:00",
     "flysfo:actual_timestamp": 1647569040,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618102,
     "lbl:longitude": -122.38769,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N461UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO00508600"
+    },
     "wof:country": "US",
     "wof:created": 1647620573,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763307065,
     "wof:involves": [
-      102528997,
-      102527513,
       1159285413,
-      1745882251
+      1745882251,
+      1159292085,
+      102528997,
+      102527513
     ],
-    "wof:lastmodified": 1647620573,
+    "wof:lastmodified": 1647620682,
     "wof:name": "UA2641 (SFO-SAN)",
     "wof:parent_id": 1745882251,
     "wof:placetype": "custom",
