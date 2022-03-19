@@ -2,10 +2,12 @@
   "id": 1763314747,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-18",
+    "date:cessation_upper": "2022-03-18",
     "date:inception_lower": "2022-03-18",
     "date:inception_upper": "2022-03-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-18",
+    "edtf:cessation": "2022-03-18T20:05:29Z",
+    "edtf:inception": "2022-03-18T04:15:33-07:00",
     "flysfo:actual_timestamp": 1647626160,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.333376,
     "geom:longitude": -114.4957645,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102529173,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N436UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18079345",
+      "swim:gufi": "KO49526600"
+    },
     "wof:country": "US",
     "wof:created": 1647706880,
     "wof:geomhash": "029159a11f35cb7f92e728b838da58ba",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763314747,
     "wof:involves": [
+      1159292085,
       102529173,
       102527513,
       1159285413,
       1745882277
     ],
-    "wof:lastmodified": 1647706880,
+    "wof:lastmodified": 1647707038,
     "wof:name": "UA1483 (SFO-ABQ)",
     "wof:parent_id": 1745882277,
     "wof:placetype": "custom",
