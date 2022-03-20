@@ -2,10 +2,12 @@
   "id": 1763317457,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-20",
+    "date:cessation_upper": "2022-03-20",
     "date:inception_lower": "2022-03-19",
     "date:inception_upper": "2022-03-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-19",
+    "edtf:cessation": "2022-03-20T02:36:22Z",
+    "edtf:inception": "2022-03-19T15:29:00Z",
     "flysfo:actual_timestamp": 1647744300,
     "flysfo:airline": "LH",
     "flysfo:date": "2022-03-19",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.9853355,
     "geom:longitude": -55.2970675,
     "iata:airline": "LH",
+    "icao:aircraft": "A359",
     "icao:airline": "DLH",
     "lbl:latitude": 37.61836,
     "lbl:longitude": -122.393229,
+    "sfomuseum:aircraft_id": 1377564293,
     "sfomuseum:airline_id": 1159286015,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102549067,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "DAIXJ",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -81,12 +90,13 @@
     ],
     "wof:id": 1763317457,
     "wof:involves": [
+      1377564293,
       102527513,
       102549067,
       1159286015,
       1745882423
     ],
-    "wof:lastmodified": 1647792437,
+    "wof:lastmodified": 1647793422,
     "wof:name": "LH458 (MUC-SFO)",
     "wof:parent_id": 1745882423,
     "wof:placetype": "custom",
