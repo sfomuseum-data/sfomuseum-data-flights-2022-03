@@ -2,10 +2,12 @@
   "id": 1763327489,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-20",
+    "date:cessation_upper": "2022-03-20",
     "date:inception_lower": "2022-03-20",
     "date:inception_upper": "2022-03-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-20",
+    "edtf:cessation": "2022-03-20T18:42:00Z",
+    "edtf:inception": "2022-03-20T18:10:00Z",
     "flysfo:actual_timestamp": 1647797640,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.022982,
     "geom:longitude": -121.104038,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527337,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N406UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18257702",
+      "swim:gufi": "KO51909100"
+    },
     "wof:country": "US",
     "wof:created": 1647879737,
     "wof:geomhash": "1d9a5fa2c9575ebb155d9645f1016c57",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763327489,
     "wof:involves": [
-      102527337,
-      102527513,
       1159285413,
-      1745882255
+      1745882255,
+      1159292085,
+      102527337,
+      102527513
     ],
-    "wof:lastmodified": 1647879737,
+    "wof:lastmodified": 1647879877,
     "wof:name": "UA1868 (SFO-SBA)",
     "wof:parent_id": 1745882255,
     "wof:placetype": "custom",
