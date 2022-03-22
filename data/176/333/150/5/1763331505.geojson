@@ -2,10 +2,12 @@
   "id": 1763331505,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-21",
+    "date:cessation_upper": "2022-03-21",
     "date:inception_lower": "2022-03-21",
     "date:inception_upper": "2022-03-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-21",
+    "edtf:cessation": "2022-03-21T13:07:00Z",
+    "edtf:inception": "2022-03-21T08:46:00Z",
     "flysfo:actual_timestamp": 1647868260,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.256470999999998,
     "geom:longitude": -139.40440999999998,
     "iata:airline": "UA",
+    "icao:aircraft": "B788",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289995,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532929,
@@ -35,6 +39,10 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "18298309",
+      "swim:gufi": "KO41876200"
+    },
     "wof:country": "US",
     "wof:created": 1647965508,
     "wof:geomhash": "e4ae4c60ed0a76df38dbcfaaa5dd6a55",
@@ -45,12 +53,12 @@
     ],
     "wof:id": 1763331505,
     "wof:involves": [
-      102527513,
       102532929,
       1159285413,
-      -1
+      1159289995,
+      102527513
     ],
-    "wof:lastmodified": 1647965508,
+    "wof:lastmodified": 1647966238,
     "wof:name": "UA348 (OGG-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

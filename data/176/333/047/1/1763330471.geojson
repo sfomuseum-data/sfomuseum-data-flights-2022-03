@@ -2,10 +2,12 @@
   "id": 1763330471,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-21",
+    "date:cessation_upper": "2022-03-21",
     "date:inception_lower": "2022-03-21",
     "date:inception_upper": "2022-03-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-21",
+    "edtf:cessation": "2022-03-21T04:06:15-07:00",
+    "edtf:inception": "2022-03-21T14:35:00Z",
     "flysfo:actual_timestamp": 1647886320,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-03-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.2506555,
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614944,
     "lbl:longitude": -122.383123,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531131,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N926DZ",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18322800"
+    },
     "wof:country": "US",
     "wof:created": 1647965244,
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763330471,
     "wof:involves": [
-      102527513,
-      102531131,
       1159284261,
-      1745882201
+      1745882201,
+      1377564285,
+      102527513,
+      102531131
     ],
-    "wof:lastmodified": 1647965244,
+    "wof:lastmodified": 1647966229,
     "wof:name": "DL1152 (MSP-SFO)",
     "wof:parent_id": 1745882201,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1763333959,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-21",
+    "date:cessation_upper": "2022-03-21",
     "date:inception_lower": "2022-03-21",
     "date:inception_upper": "2022-03-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-21",
+    "edtf:cessation": "2022-03-21T10:56:00Z",
+    "edtf:inception": "2022-03-21T16:07:00-07:00",
     "flysfo:actual_timestamp": 1647927900,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.846425,
     "geom:longitude": -101.2547305,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618874,
     "lbl:longitude": -122.38419,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530841,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N69804",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18301218"
+    },
     "wof:country": "US",
     "wof:created": 1647966120,
     "wof:geomhash": "2155b19e54308f477f2a379762b2f6c8",
@@ -84,9 +96,10 @@
       102530841,
       102527513,
       1159285413,
-      1745882309
+      1745882309,
+      1377564285
     ],
-    "wof:lastmodified": 1647966120,
+    "wof:lastmodified": 1647966235,
     "wof:name": "UA2482 (SFO-FLL)",
     "wof:parent_id": 1745882309,
     "wof:placetype": "custom",
