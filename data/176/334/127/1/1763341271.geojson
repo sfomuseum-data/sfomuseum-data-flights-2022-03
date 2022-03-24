@@ -2,10 +2,12 @@
   "id": 1763341271,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-24",
+    "date:cessation_upper": "2022-03-24",
     "date:inception_lower": "2022-03-23",
     "date:inception_upper": "2022-03-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-23",
+    "edtf:cessation": "2022-03-24T04:10:48Z",
+    "edtf:inception": "2022-03-23T16:50:00Z",
     "flysfo:actual_timestamp": 1648095540,
     "flysfo:airline": "BF",
     "flysfo:date": "2022-03-23",
@@ -48,6 +50,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18583520"
+    },
     "wof:country": "US",
     "wof:created": 1648138077,
     "wof:geomhash": "ccdcde8e2753acf4845b350f07bc56a7",
@@ -86,7 +91,7 @@
       1377649073,
       1745882377
     ],
-    "wof:lastmodified": 1648138077,
+    "wof:lastmodified": 1648139004,
     "wof:name": "BF710 (ORY-SFO)",
     "wof:parent_id": 1745882377,
     "wof:placetype": "custom",

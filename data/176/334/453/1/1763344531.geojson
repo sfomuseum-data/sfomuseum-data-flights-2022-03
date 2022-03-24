@@ -2,10 +2,12 @@
   "id": 1763344531,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-23",
+    "date:cessation_upper": "2022-03-23",
     "date:inception_lower": "2022-03-23",
     "date:inception_upper": "2022-03-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-23",
+    "edtf:cessation": "2022-03-23T21:57:00Z",
+    "edtf:inception": "2022-03-23T20:55:00Z",
     "flysfo:actual_timestamp": 1648067100,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.647857,
     "geom:longitude": -120.1186115,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534161,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N814UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +56,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18518538",
+      "swim:gufi": "KO62713400"
+    },
     "wof:country": "US",
     "wof:created": 1648138900,
     "wof:geomhash": "b700d5ae3794da4176af6b85f6cd6669",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763344531,
     "wof:involves": [
+      1159289407,
       102534161,
       102527513,
       1159285413,
       1745882255
     ],
-    "wof:lastmodified": 1648138900,
+    "wof:lastmodified": 1648139011,
     "wof:name": "UA529 (SFO-SNA)",
     "wof:parent_id": 1745882255,
     "wof:placetype": "custom",
