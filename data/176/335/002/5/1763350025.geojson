@@ -2,10 +2,12 @@
   "id": 1763350025,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
     "date:inception_lower": "2022-03-24",
     "date:inception_upper": "2022-03-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-24",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2022-03-24T06:11:25-07:00",
     "flysfo:actual_timestamp": 1648151640,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619425,
     "lbl:longitude": -122.384028,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102526751,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N17529",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -84,9 +92,10 @@
       102526751,
       102527513,
       1159285413,
-      1745882321
+      1745882321,
+      1528104577
     ],
-    "wof:lastmodified": 1648225439,
+    "wof:lastmodified": 1648225548,
     "wof:name": "UA343 (SFO-PHX)",
     "wof:parent_id": 1745882321,
     "wof:placetype": "custom",

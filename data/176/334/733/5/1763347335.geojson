@@ -2,10 +2,12 @@
   "id": 1763347335,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-03-24",
-    "date:inception_upper": "2022-03-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-24",
+    "date:cessation_lower": "2022-03-24",
+    "date:cessation_upper": "2022-03-24",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2022-03-24T08:20:54-07:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": 1648160700,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618874,
     "lbl:longitude": -122.38419,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528997,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N14240",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -84,9 +92,10 @@
       102527513,
       102528997,
       1159285413,
-      1745882309
+      1745882309,
+      1159289871
     ],
-    "wof:lastmodified": 1648224747,
+    "wof:lastmodified": 1648225562,
     "wof:name": "UA2481 (SAN-SFO)",
     "wof:parent_id": 1745882309,
     "wof:placetype": "custom",
