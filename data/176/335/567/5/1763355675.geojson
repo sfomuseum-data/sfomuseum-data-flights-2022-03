@@ -2,10 +2,12 @@
   "id": 1763355675,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-25",
+    "date:cessation_upper": "2022-03-25",
     "date:inception_lower": "2022-03-25",
     "date:inception_upper": "2022-03-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-25",
+    "edtf:cessation": "2022-03-25T21:21:00Z",
+    "edtf:inception": "2022-03-25T20:13:00Z",
     "flysfo:actual_timestamp": 1648238340,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619451,
     "lbl:longitude": -122.384404,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N13227",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18687567",
+      "swim:gufi": "KO55481600"
+    },
     "wof:country": "US",
     "wof:created": 1648311725,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -84,9 +97,10 @@
       102527209,
       102527513,
       1159285413,
-      1745882315
+      1745882315,
+      1159289871
     ],
-    "wof:lastmodified": 1648311725,
+    "wof:lastmodified": 1648311876,
     "wof:name": "UA1926 (SFO-LAS)",
     "wof:parent_id": 1745882315,
     "wof:placetype": "custom",

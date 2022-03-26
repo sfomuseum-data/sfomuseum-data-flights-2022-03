@@ -2,10 +2,12 @@
   "id": 1763355805,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-25",
+    "date:cessation_upper": "2022-03-25",
     "date:inception_lower": "2022-03-25",
     "date:inception_upper": "2022-03-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-25",
+    "edtf:cessation": "2022-03-25T18:28:00Z",
+    "edtf:inception": "2022-03-25T00:00:00-07:00",
     "flysfo:actual_timestamp": 1648215000,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620818,
     "lbl:longitude": -122.389182,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530049,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N2243U",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18651234",
+      "swim:gufi": "KO41092600"
+    },
     "wof:country": "US",
     "wof:created": 1648311758,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
@@ -84,9 +98,10 @@
       102530049,
       102527513,
       1159285413,
-      1745882281
+      1745882281,
+      1159289993
     ],
-    "wof:lastmodified": 1648311758,
+    "wof:lastmodified": 1648311877,
     "wof:name": "UA295 (SFO-EWR)",
     "wof:parent_id": 1745882281,
     "wof:placetype": "custom",

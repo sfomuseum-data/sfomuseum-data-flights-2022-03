@@ -2,10 +2,12 @@
   "id": 1763351867,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-25",
+    "date:cessation_upper": "2022-03-25",
     "date:inception_lower": "2022-03-25",
     "date:inception_upper": "2022-03-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-25",
+    "edtf:cessation": "2022-03-25T18:52:00Z",
+    "edtf:inception": "2022-03-25T13:09:00Z",
     "flysfo:actual_timestamp": 1648234680,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-03-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530049,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N491AS",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +56,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18645057"
+    },
     "wof:country": "US",
     "wof:created": 1648310766,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -84,9 +95,10 @@
       102527513,
       102530049,
       1159283813,
-      1745882103
+      1745882103,
+      1377564285
     ],
-    "wof:lastmodified": 1648310766,
+    "wof:lastmodified": 1648311871,
     "wof:name": "AS189 (EWR-SFO)",
     "wof:parent_id": 1745882103,
     "wof:placetype": "custom",

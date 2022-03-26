@@ -2,10 +2,12 @@
   "id": 1763355473,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-25",
+    "date:cessation_upper": "2022-03-25",
     "date:inception_lower": "2022-03-25",
     "date:inception_upper": "2022-03-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-25",
+    "edtf:cessation": "2022-03-25T14:22:00Z",
+    "edtf:inception": "2022-03-25T12:18:00Z",
     "flysfo:actual_timestamp": 1648209900,
     "flysfo:airline": "WN",
     "flysfo:date": "2022-03-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N765SW",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +53,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18644975"
+    },
     "wof:country": "US",
     "wof:created": 1648311673,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -81,12 +89,13 @@
     ],
     "wof:id": 1763355473,
     "wof:involves": [
+      1159289869,
       102531189,
       102527513,
       1159285591,
       1745882151
     ],
-    "wof:lastmodified": 1648311673,
+    "wof:lastmodified": 1648311885,
     "wof:name": "WN1383 (SFO-DEN)",
     "wof:parent_id": 1745882151,
     "wof:placetype": "custom",

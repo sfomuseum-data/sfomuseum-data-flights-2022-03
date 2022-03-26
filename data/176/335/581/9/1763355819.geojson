@@ -2,10 +2,12 @@
   "id": 1763355819,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-26",
+    "date:cessation_upper": "2022-03-26",
     "date:inception_lower": "2022-03-25",
     "date:inception_upper": "2022-03-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-25",
+    "edtf:cessation": "2022-03-26T02:59:00Z",
+    "edtf:inception": "2022-03-25T11:44:08-07:00",
     "flysfo:actual_timestamp": 1648257540,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102532251,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N829UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO83160600"
+    },
     "wof:country": "US",
     "wof:created": 1648311762,
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763355819,
     "wof:involves": [
+      1159289407,
       102532251,
       102527513,
       1159285413,
       1745882255
     ],
-    "wof:lastmodified": 1648311762,
+    "wof:lastmodified": 1648311877,
     "wof:name": "UA406 (SFO-PDX)",
     "wof:parent_id": 1745882255,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1763355797,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-03-25",
-    "date:inception_upper": "2022-03-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-25",
+    "date:cessation_lower": "2022-03-26",
+    "date:cessation_upper": "2022-03-26",
+    "date:inception_lower": "2022-03-26",
+    "date:inception_upper": "2022-03-26",
+    "edtf:cessation": "2022-03-26T06:59:00Z",
+    "edtf:inception": "2022-03-26T06:03:00Z",
     "flysfo:actual_timestamp": 1648273380,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N460UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18633133",
+      "swim:gufi": "KO11833700"
+    },
     "wof:country": "US",
     "wof:created": 1648311756,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -84,9 +97,10 @@
       102533795,
       102527513,
       1159285413,
-      1745882255
+      1745882255,
+      1159292085
     ],
-    "wof:lastmodified": 1648311756,
+    "wof:lastmodified": 1648311877,
     "wof:name": "UA2654 (SFO-LAX)",
     "wof:parent_id": 1745882255,
     "wof:placetype": "custom",
