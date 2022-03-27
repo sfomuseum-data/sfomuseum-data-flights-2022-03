@@ -2,10 +2,12 @@
   "id": 1763359111,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-27",
+    "date:cessation_upper": "2022-03-27",
     "date:inception_lower": "2022-03-26",
     "date:inception_upper": "2022-03-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-26",
+    "edtf:cessation": "2022-03-27T09:11:51Z",
+    "edtf:inception": "2022-03-26T21:41:00Z",
     "flysfo:actual_timestamp": 1648329780,
     "flysfo:airline": "NH",
     "flysfo:date": "2022-03-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.0252325,
     "geom:longitude": 6.435532500000001,
     "iata:airline": "NH",
+    "icao:aircraft": "B789",
     "icao:airline": "ANA",
     "lbl:latitude": 37.617906,
     "lbl:longitude": -122.390944,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159283875,
     "sfomuseum:arrival_id": 102541661,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "JA837A",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18786224"
+    },
     "wof:country": "US",
     "wof:created": 1648397686,
     "wof:geomhash": "1f86cc41c51819fe374d86de27276a46",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763359111,
     "wof:involves": [
-      102541661,
-      102527513,
       1159283875,
-      1745882413
+      1745882413,
+      1159293215,
+      102541661,
+      102527513
     ],
-    "wof:lastmodified": 1648397686,
+    "wof:lastmodified": 1648398224,
     "wof:name": "NH1915 (SFO-KIX)",
     "wof:parent_id": 1745882413,
     "wof:placetype": "custom",

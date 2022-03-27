@@ -2,10 +2,12 @@
   "id": 1763359793,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-26",
+    "date:cessation_upper": "2022-03-26",
     "date:inception_lower": "2022-03-26",
     "date:inception_upper": "2022-03-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-26",
+    "edtf:cessation": "2022-03-26T15:59:00Z",
+    "edtf:inception": "2022-03-26T14:39:00Z",
     "flysfo:actual_timestamp": 1648335600,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-03-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
+    "icao:aircraft": "A319",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N355NB",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "18801717",
+      "swim:gufi": "KO47461700"
+    },
     "wof:country": "US",
     "wof:created": 1648397855,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -45,12 +58,12 @@
     ],
     "wof:id": 1763359793,
     "wof:involves": [
+      1159289407,
       102527363,
       102527513,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1648397855,
+    "wof:lastmodified": 1648398226,
     "wof:name": "DL9963 (SFO-SLC)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

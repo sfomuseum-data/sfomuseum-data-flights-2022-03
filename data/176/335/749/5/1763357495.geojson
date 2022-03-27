@@ -2,10 +2,12 @@
   "id": 1763357495,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-26",
+    "date:cessation_upper": "2022-03-26",
     "date:inception_lower": "2022-03-26",
     "date:inception_upper": "2022-03-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-26",
+    "edtf:cessation": "2022-03-26T19:26:00Z",
+    "edtf:inception": "2022-03-26T18:29:00Z",
     "flysfo:actual_timestamp": 1648322940,
     "flysfo:airline": "F9",
     "flysfo:date": "2022-03-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.838961999999995,
     "geom:longitude": -119.97934599999999,
     "iata:airline": "F9",
+    "icao:aircraft": "A321",
     "icao:airline": "FFT",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533575,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N714FR",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18769616"
+    },
     "wof:country": "US",
     "wof:created": 1648397285,
     "wof:geomhash": "094b2380067f0814bdd38962ab53e3d3",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763357495,
     "wof:involves": [
+      1159289411,
       102527513,
       102533575,
       1159284401,
       1745882399
     ],
-    "wof:lastmodified": 1648397285,
+    "wof:lastmodified": 1648398216,
     "wof:name": "F92755 (ONT-SFO)",
     "wof:parent_id": 1745882399,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1763358249,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-26",
+    "date:cessation_upper": "2022-03-26",
     "date:inception_lower": "2022-03-26",
     "date:inception_upper": "2022-03-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-26",
+    "edtf:cessation": "2022-03-26T10:28:35-07:00",
+    "edtf:inception": "2022-03-26T22:29:00Z",
     "flysfo:actual_timestamp": 1648341180,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.333376,
     "geom:longitude": -114.4957645,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617835,
     "lbl:longitude": -122.388019,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102529173,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N26210",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18787789",
+      "swim:gufi": "KA73008700"
+    },
     "wof:country": "US",
     "wof:created": 1648397474,
     "wof:geomhash": "8fe6791c85dc44fbddffd72416ea0024",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763358249,
     "wof:involves": [
+      1159289871,
       102527513,
       102529173,
       1159285413,
       1745882249
     ],
-    "wof:lastmodified": 1648397474,
+    "wof:lastmodified": 1648398222,
     "wof:name": "UA222 (ABQ-SFO)",
     "wof:parent_id": 1745882249,
     "wof:placetype": "custom",
