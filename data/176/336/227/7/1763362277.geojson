@@ -2,10 +2,12 @@
   "id": 1763362277,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-27",
+    "date:cessation_upper": "2022-03-27",
     "date:inception_lower": "2022-03-27",
     "date:inception_upper": "2022-03-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-27",
+    "edtf:cessation": "2022-03-27T06:35:45Z",
+    "edtf:inception": "2022-03-27T04:52:00Z",
     "flysfo:actual_timestamp": 1648422000,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-03-27",
@@ -48,6 +50,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18807086"
+    },
     "wof:country": "US",
     "wof:created": 1648483577,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -86,7 +91,7 @@
       1159283813,
       1745882103
     ],
-    "wof:lastmodified": 1648483577,
+    "wof:lastmodified": 1648484777,
     "wof:name": "AS1328 (SEA-SFO)",
     "wof:parent_id": 1745882103,
     "wof:placetype": "custom",

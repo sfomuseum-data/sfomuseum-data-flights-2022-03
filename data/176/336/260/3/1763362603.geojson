@@ -2,10 +2,12 @@
   "id": 1763362603,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-27",
+    "date:cessation_upper": "2022-03-27",
     "date:inception_lower": "2022-03-27",
     "date:inception_upper": "2022-03-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-27",
+    "edtf:cessation": "2022-03-27T02:38:50-07:00",
+    "edtf:inception": "2022-03-27T05:48:13Z",
     "flysfo:actual_timestamp": 1648399680,
     "flysfo:airline": "MU",
     "flysfo:date": "2022-03-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 34.381651,
     "geom:longitude": -0.285817999999999,
     "iata:airline": "MU",
+    "icao:aircraft": "B77W",
     "icao:airline": "CES",
     "lbl:latitude": 37.612048,
     "lbl:longitude": -122.389573,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159284157,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102550331,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-approach"
+    ],
+    "swim:tail_number": "B7365",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18879381"
+    },
     "wof:country": "US",
     "wof:created": 1648483661,
     "wof:geomhash": "0a16624c451961804ad27ef012213244",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763362603,
     "wof:involves": [
+      1159289993,
       102527513,
       102550331,
       1159284157,
       1745882381
     ],
-    "wof:lastmodified": 1648483661,
+    "wof:lastmodified": 1648484778,
     "wof:name": "MU7589 (PVG-SFO)",
     "wof:parent_id": 1745882381,
     "wof:placetype": "custom",

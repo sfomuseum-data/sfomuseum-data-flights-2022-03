@@ -2,10 +2,12 @@
   "id": 1763364043,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-03-27",
-    "date:inception_upper": "2022-03-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-27",
+    "date:cessation_lower": "2022-03-28",
+    "date:cessation_upper": "2022-03-28",
+    "date:inception_lower": "2022-03-28",
+    "date:inception_upper": "2022-03-28",
+    "edtf:cessation": "2022-03-27T23:38:38-07:00",
+    "edtf:inception": "2022-03-28T00:52:00Z",
     "flysfo:actual_timestamp": 1648387800,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 1.8415309999999998,
     "geom:longitude": 14.401222499999996,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102557783,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N2352U",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18798789",
+      "swim:gufi": "KO44085200"
+    },
     "wof:country": "US",
     "wof:created": 1648484025,
     "wof:geomhash": "f3115fe3d28c66ab4b94072923e0b1bb",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763364043,
     "wof:involves": [
+      1745882431,
+      1159289993,
       102527513,
       102557783,
-      1159285413,
-      1745882431
+      1159285413
     ],
-    "wof:lastmodified": 1648484025,
+    "wof:lastmodified": 1648484781,
     "wof:name": "UA870 (SYD-SFO)",
     "wof:parent_id": 1745882431,
     "wof:placetype": "custom",

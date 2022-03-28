@@ -2,10 +2,12 @@
   "id": 1763362003,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-03-27",
-    "date:inception_upper": "2022-03-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-27",
+    "date:cessation_lower": "2022-03-28",
+    "date:cessation_upper": "2022-03-28",
+    "date:inception_lower": "2022-03-28",
+    "date:inception_upper": "2022-03-28",
+    "edtf:cessation": "2022-03-28T05:40:26Z",
+    "edtf:inception": "2022-03-28T00:20:00Z",
     "flysfo:actual_timestamp": 1648422000,
     "flysfo:airline": "AM",
     "flysfo:date": "2022-03-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 28.524645999999997,
     "geom:longitude": -110.7258735,
     "iata:airline": "AM",
+    "icao:aircraft": "B738",
     "icao:airline": "AMX",
     "lbl:latitude": 37.613288,
     "lbl:longitude": -122.389396,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283539,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102536579,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N368AR",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18799957"
+    },
     "wof:country": "US",
     "wof:created": 1648483505,
     "wof:geomhash": "4224d1c4c9907a232ddfbf90e60373e4",
@@ -84,9 +97,10 @@
       102527513,
       102536579,
       1159283539,
-      1745882375
+      1745882375,
+      1159289871
     ],
-    "wof:lastmodified": 1648483505,
+    "wof:lastmodified": 1648484776,
     "wof:name": "AM664 (MEX-SFO)",
     "wof:parent_id": 1745882375,
     "wof:placetype": "custom",

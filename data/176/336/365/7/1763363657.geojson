@@ -2,10 +2,12 @@
   "id": 1763363657,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-27",
+    "date:cessation_upper": "2022-03-27",
     "date:inception_lower": "2022-03-27",
     "date:inception_upper": "2022-03-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-27",
+    "edtf:cessation": "2022-03-27T05:54:10-07:00",
+    "edtf:inception": "2022-03-27T17:41:00Z",
     "flysfo:actual_timestamp": 1648412100,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N33203",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18843055",
+      "swim:gufi": "KD54979100"
+    },
     "wof:country": "US",
     "wof:created": 1648483927,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763363657,
     "wof:involves": [
-      102527513,
       102531189,
       1159285413,
-      1745882279
+      1745882279,
+      1159289871,
+      102527513
     ],
-    "wof:lastmodified": 1648483927,
+    "wof:lastmodified": 1648484768,
     "wof:name": "UA1561 (DEN-SFO)",
     "wof:parent_id": 1745882279,
     "wof:placetype": "custom",
