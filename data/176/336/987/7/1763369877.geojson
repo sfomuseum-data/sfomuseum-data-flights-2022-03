@@ -2,10 +2,12 @@
   "id": 1763369877,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-28",
+    "date:cessation_upper": "2022-03-28",
     "date:inception_lower": "2022-03-28",
     "date:inception_upper": "2022-03-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-28",
+    "edtf:cessation": "2022-03-28T20:03:47Z",
+    "edtf:inception": "2022-03-28T01:14:02-07:00",
     "flysfo:actual_timestamp": 1648479300,
     "flysfo:airline": "AA",
     "flysfo:date": "2022-03-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.70423,
     "geom:longitude": -101.3334745,
     "iata:airline": "AA",
+    "icao:aircraft": "B38M",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102531023,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N314RH",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18907284",
+      "swim:gufi": "KO49537200"
+    },
     "wof:country": "US",
     "wof:created": 1648570492,
     "wof:geomhash": "05e474f4bf1eb5ae110c20d94aac828f",
@@ -84,9 +98,10 @@
       102531023,
       102527513,
       1159283849,
-      1745882165
+      1745882165,
+      1528104575
     ],
-    "wof:lastmodified": 1648570492,
+    "wof:lastmodified": 1648571215,
     "wof:name": "AA369 (SFO-MIA)",
     "wof:parent_id": 1745882165,
     "wof:placetype": "custom",

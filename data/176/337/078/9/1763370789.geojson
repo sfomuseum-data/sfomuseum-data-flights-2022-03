@@ -2,10 +2,12 @@
   "id": 1763370789,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-28",
+    "date:cessation_upper": "2022-03-28",
     "date:inception_lower": "2022-03-28",
     "date:inception_upper": "2022-03-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-28",
+    "edtf:cessation": "2022-03-28T19:49:00Z",
+    "edtf:inception": "2022-03-28T18:39:00Z",
     "flysfo:actual_timestamp": 1648491780,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-03-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N518AS",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18921751"
+    },
     "wof:country": "US",
     "wof:created": 1648570726,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1763370789,
     "wof:involves": [
+      1159289871,
       102528997,
       102527513,
       1159283813,
       1745882105
     ],
-    "wof:lastmodified": 1648570726,
+    "wof:lastmodified": 1648571199,
     "wof:name": "AS435 (SFO-SAN)",
     "wof:parent_id": 1745882105,
     "wof:placetype": "custom",

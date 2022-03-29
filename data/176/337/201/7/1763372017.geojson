@@ -2,10 +2,12 @@
   "id": 1763372017,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-03-28",
-    "date:inception_upper": "2022-03-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-28",
+    "date:cessation_lower": "2022-03-29",
+    "date:cessation_upper": "2022-03-29",
+    "date:inception_lower": "2022-03-29",
+    "date:inception_upper": "2022-03-29",
+    "edtf:cessation": "2022-03-29T10:56:08Z",
+    "edtf:inception": "2022-03-29T06:18:00Z",
     "flysfo:actual_timestamp": 1648532280,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.0247425,
     "geom:longitude": -101.83923999999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621076,
     "lbl:longitude": -122.390239,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533657,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N75851",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18884838",
+      "swim:gufi": "KO11050300"
+    },
     "wof:country": "US",
     "wof:created": 1648571045,
     "wof:geomhash": "33c9625a4901edf29154e5ec4b308b8b",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763372017,
     "wof:involves": [
+      1159289945,
       102533657,
       102527513,
       1159285413,
       1745882293
     ],
-    "wof:lastmodified": 1648571045,
+    "wof:lastmodified": 1648571207,
     "wof:name": "UA221 (SFO-MCO)",
     "wof:parent_id": 1745882293,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1763372363,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-29",
+    "date:cessation_upper": "2022-03-29",
     "date:inception_lower": "2022-03-28",
     "date:inception_upper": "2022-03-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-28",
+    "edtf:cessation": "2022-03-29T09:20:51Z",
+    "edtf:inception": "2022-03-28T23:04:00Z",
     "flysfo:actual_timestamp": 1648508400,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.61799,
     "geom:longitude": -122.370943,
     "iata:airline": "UA",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N29971",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "18941848",
+      "swim:gufi": "KO65812200"
+    },
     "wof:country": "US",
     "wof:created": 1648571137,
     "wof:geomhash": "f780d59ec1f4d1acb53d14db45159ea5",
@@ -46,11 +59,10 @@
     "wof:id": 1763372363,
     "wof:involves": [
       102527513,
-      102527513,
       1159285413,
-      -1
+      1159293215
     ],
-    "wof:lastmodified": 1648571137,
+    "wof:lastmodified": 1648571211,
     "wof:name": "UA990 (SFO-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

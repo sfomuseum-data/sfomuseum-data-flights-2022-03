@@ -2,10 +2,12 @@
   "id": 1763368103,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-28",
+    "date:cessation_upper": "2022-03-28",
     "date:inception_lower": "2022-03-28",
     "date:inception_upper": "2022-03-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-28",
+    "edtf:cessation": "2022-03-28T06:21:00Z",
+    "edtf:inception": "2022-03-28T00:24:00Z",
     "flysfo:actual_timestamp": 1648508400,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-03-28",
@@ -48,6 +50,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18872070"
+    },
     "wof:country": "US",
     "wof:created": 1648570029,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -86,7 +91,7 @@
       1159283813,
       1745882105
     ],
-    "wof:lastmodified": 1648570029,
+    "wof:lastmodified": 1648571200,
     "wof:name": "AS375 (EWR-SFO)",
     "wof:parent_id": 1745882105,
     "wof:placetype": "custom",
