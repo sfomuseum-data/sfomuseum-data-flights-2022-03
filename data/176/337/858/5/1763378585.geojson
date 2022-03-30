@@ -2,10 +2,12 @@
   "id": 1763378585,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-29",
+    "date:cessation_upper": "2022-03-29",
     "date:inception_lower": "2022-03-29",
     "date:inception_upper": "2022-03-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-29",
+    "edtf:cessation": "2022-03-29T12:38:17Z",
+    "edtf:inception": "2022-03-29T01:21:00Z",
     "flysfo:actual_timestamp": 1648594800,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-29",
@@ -48,6 +50,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18912827"
+    },
     "wof:country": "US",
     "wof:created": 1648657471,
     "wof:geomhash": "dda5c67e1aac39b5fe10f27fb362ac64",
@@ -86,7 +91,7 @@
       1159285413,
       1745882413
     ],
-    "wof:lastmodified": 1648657471,
+    "wof:lastmodified": 1648657607,
     "wof:name": "UA2765 (SFO-GUM)",
     "wof:parent_id": 1745882413,
     "wof:placetype": "custom",

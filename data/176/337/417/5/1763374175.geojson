@@ -2,10 +2,12 @@
   "id": 1763374175,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-29",
+    "date:cessation_upper": "2022-03-29",
     "date:inception_lower": "2022-03-29",
     "date:inception_upper": "2022-03-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-29",
+    "edtf:cessation": "2022-03-29T03:03:51-07:00",
+    "edtf:inception": "2022-03-29T08:10:00Z",
     "flysfo:actual_timestamp": 1648573860,
     "flysfo:airline": "NH",
     "flysfo:date": "2022-03-29",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.686867,
     "geom:longitude": 9.012156999999995,
     "iata:airline": "NH",
+    "icao:aircraft": "B789",
     "icao:airline": "ANA",
     "lbl:latitude": 37.61836,
     "lbl:longitude": -122.393229,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159283875,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102541685,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-approach"
+    ],
+    "swim:tail_number": "JA891A",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18965163"
+    },
     "wof:country": "US",
     "wof:created": 1648656333,
     "wof:geomhash": "d46bcc8d1d94e68df95be799ac6a3b4c",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763374175,
     "wof:involves": [
-      102527513,
-      102541685,
       1159283875,
-      1745882423
+      1745882423,
+      1159293215,
+      102527513,
+      102541685
     ],
-    "wof:lastmodified": 1648656333,
+    "wof:lastmodified": 1648657599,
     "wof:name": "NH8 (NRT-SFO)",
     "wof:parent_id": 1745882423,
     "wof:placetype": "custom",

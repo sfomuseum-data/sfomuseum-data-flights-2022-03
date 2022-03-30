@@ -2,10 +2,12 @@
   "id": 1763375203,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-29",
+    "date:cessation_upper": "2022-03-29",
     "date:inception_lower": "2022-03-29",
     "date:inception_upper": "2022-03-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-29",
+    "edtf:cessation": "2022-03-29T15:51:07-07:00",
+    "edtf:inception": "2022-03-29T23:46:00Z",
     "flysfo:actual_timestamp": 1648620000,
     "flysfo:airline": "B6",
     "flysfo:date": "2022-03-29",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "B6",
+    "icao:aircraft": "A321",
     "icao:airline": "JBU",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534365,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N990JL",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KN80533300"
+    },
     "wof:country": "US",
     "wof:created": 1648656601,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763375203,
     "wof:involves": [
+      1745882143,
+      1159289411,
       102527513,
       102534365,
-      1159284583,
-      1745882143
+      1159284583
     ],
-    "wof:lastmodified": 1648656601,
+    "wof:lastmodified": 1648657609,
     "wof:name": "B6915 (JFK-SFO)",
     "wof:parent_id": 1745882143,
     "wof:placetype": "custom",
