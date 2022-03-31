@@ -2,10 +2,12 @@
   "id": 1763383539,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-03-30",
-    "date:inception_upper": "2022-03-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-30",
+    "date:cessation_lower": "2022-03-31",
+    "date:cessation_upper": "2022-03-31",
+    "date:inception_lower": "2022-03-31",
+    "date:inception_upper": "2022-03-31",
+    "edtf:cessation": "2022-03-30T18:36:01-07:00",
+    "edtf:inception": "2022-03-31T06:28:00Z",
     "flysfo:actual_timestamp": 1648681200,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-03-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
@@ -34,7 +38,14 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N655DL",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KD18361500"
+    },
     "wof:country": "US",
     "wof:created": 1648742920,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -45,12 +56,12 @@
     ],
     "wof:id": 1763383539,
     "wof:involves": [
+      1159289939,
       102527513,
       102531189,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1648742920,
+    "wof:lastmodified": 1648743961,
     "wof:name": "DL8844 (DEN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

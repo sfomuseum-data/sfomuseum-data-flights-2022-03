@@ -2,10 +2,12 @@
   "id": 1763386789,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-03-30",
-    "date:inception_upper": "2022-03-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-30",
+    "date:cessation_lower": "2022-03-31",
+    "date:cessation_upper": "2022-03-31",
+    "date:inception_lower": "2022-03-31",
+    "date:inception_upper": "2022-03-31",
+    "edtf:cessation": "2022-03-31T03:50:00Z",
+    "edtf:inception": "2022-03-31T02:58:00Z",
     "flysfo:actual_timestamp": 1648694280,
     "flysfo:airline": "WN",
     "flysfo:date": "2022-03-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N8655D",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -81,12 +91,13 @@
     ],
     "wof:id": 1763386789,
     "wof:involves": [
+      1745882153,
+      1159289871,
       102533795,
       102527513,
-      1159285591,
-      1745882153
+      1159285591
     ],
-    "wof:lastmodified": 1648743735,
+    "wof:lastmodified": 1648743968,
     "wof:name": "WN294 (SFO-LAX)",
     "wof:parent_id": 1745882153,
     "wof:placetype": "custom",

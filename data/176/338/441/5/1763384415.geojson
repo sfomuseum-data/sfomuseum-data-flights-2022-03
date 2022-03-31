@@ -2,10 +2,12 @@
   "id": 1763384415,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-30",
+    "date:cessation_upper": "2022-03-30",
     "date:inception_lower": "2022-03-30",
     "date:inception_upper": "2022-03-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-30",
+    "edtf:cessation": "2022-03-30T01:34:39-07:00",
+    "edtf:inception": "2022-03-30T10:06:00Z",
     "flysfo:actual_timestamp": 1648654740,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-03-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.3996545,
     "geom:longitude": -99.5210065,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621076,
     "lbl:longitude": -122.390239,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532047,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N460UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "19053013",
+      "swim:gufi": "KW31494400"
+    },
     "wof:country": "US",
     "wof:created": 1648743142,
     "wof:geomhash": "10c01f207ef95eecc919066d165ec5eb",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1763384415,
     "wof:involves": [
+      1745882293,
+      1159292085,
       102527513,
       102532047,
-      1159285413,
-      1745882293
+      1159285413
     ],
-    "wof:lastmodified": 1648743142,
+    "wof:lastmodified": 1648743964,
     "wof:name": "UA1801 (BWI-SFO)",
     "wof:parent_id": 1745882293,
     "wof:placetype": "custom",
