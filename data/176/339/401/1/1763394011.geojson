@@ -2,10 +2,12 @@
   "id": 1763394011,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-03-31",
+    "date:cessation_upper": "2022-03-31",
     "date:inception_lower": "2022-03-31",
     "date:inception_upper": "2022-03-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-03-31",
+    "edtf:cessation": "2022-03-31T23:41:05Z",
+    "edtf:inception": "2022-03-31T18:48:00Z",
     "flysfo:actual_timestamp": 1648751520,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-03-31",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533997,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N560AS",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "19178171"
+    },
     "wof:country": "US",
     "wof:created": 1648830234,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1763394011,
     "wof:involves": [
+      1159289871,
       102533997,
       102527513,
       1159283813,
       1745882101
     ],
-    "wof:lastmodified": 1648830234,
+    "wof:lastmodified": 1648838232,
     "wof:name": "AS744 (SFO-HNL)",
     "wof:parent_id": 1745882101,
     "wof:placetype": "custom",
