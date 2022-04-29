@@ -17,9 +17,9 @@
     "flysfo:scheduled_timestamp": 1647200700,
     "flysfo:timestamp": 1647212400,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,34.196704,-118.353322,37.617990",
+    "geom:latitude": 35.907347,
+    "geom:longitude": -120.3621325,
     "iata:airline": "WN",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
@@ -37,7 +37,7 @@
     "wof:belongsto": [],
     "wof:country": "US",
     "wof:created": 1647274840,
-    "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
+    "wof:geomhash": "5b5841a3ebf3c57d9843115edfb8ee6b",
     "wof:hierarchy": [
       {
         "flight_id": 1763276853
@@ -50,7 +50,7 @@
       1159285591,
       -1
     ],
-    "wof:lastmodified": 1647274840,
+    "wof:lastmodified": 1651259351,
     "wof:name": "WN2689 (SFO-BUR)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
@@ -61,9 +61,9 @@
   },
   "bbox": [
     -122.370943,
-    0,
-    0,
+    34.196704,
+    -118.353322,
     37.61799
   ],
-  "geometry": {"coordinates":[[-122.370943,37.61799],[0,0]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-118.353322,34.196704]],"type":"MultiPoint"}
 }
