@@ -19,9 +19,9 @@
     "flysfo:scheduled_timestamp": 1646753820,
     "flysfo:timestamp": 1646784000,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,37.617990,11.078056,49.498611",
+    "geom:latitude": 43.5583005,
+    "geom:longitude": -55.6464435,
     "iata:airline": "UA",
     "icao:aircraft": "B77W",
     "icao:airline": "UAL",
@@ -30,7 +30,7 @@
     "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
-    "sfomuseum:departure_id": -1,
+    "sfomuseum:departure_id": 1763661337,
     "sfomuseum:flight_id": "20220308-A-UAL-2586",
     "sfomuseum:flight_number": [
       "UAL2586",
@@ -58,7 +58,7 @@
     },
     "wof:country": "US",
     "wof:created": 1646842216,
-    "wof:geomhash": "39d9eba3dc111bfc07b45f612540f4b0",
+    "wof:geomhash": "4b1b48411c4e89d5e7d7bc8ee580b2c3",
     "wof:hierarchy": [
       {
         "building_id": 1745882083,
@@ -94,7 +94,7 @@
       1159289993,
       102527513
     ],
-    "wof:lastmodified": 1646842941,
+    "wof:lastmodified": 1652118549,
     "wof:name": "UA2586 (NUE-SFO)",
     "wof:parent_id": 1745882427,
     "wof:placetype": "custom",
@@ -105,9 +105,9 @@
   },
   "bbox": [
     -122.370943,
-    0,
-    0,
-    37.61799
+    37.61799,
+    11.078056,
+    49.498611
   ],
-  "geometry": {"coordinates":[[0,0],[-122.370943,37.61799]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[11.078056,49.498611],[-122.370943,37.61799]],"type":"MultiPoint"}
 }

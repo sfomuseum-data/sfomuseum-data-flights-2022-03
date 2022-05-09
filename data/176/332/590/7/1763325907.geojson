@@ -19,9 +19,9 @@
     "flysfo:scheduled_timestamp": 1647811800,
     "flysfo:timestamp": 1647812700,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,34.858398,136.804993,37.617990",
+    "geom:latitude": 36.238194,
+    "geom:longitude": 7.217025,
     "iata:airline": "NH",
     "icao:aircraft": "B77W",
     "icao:airline": "ANA",
@@ -29,7 +29,7 @@
     "lbl:longitude": -122.392214,
     "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159283875,
-    "sfomuseum:arrival_id": -1,
+    "sfomuseum:arrival_id": 102541597,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20220320-D-ANA-1911",
     "sfomuseum:flight_number": [
@@ -61,7 +61,7 @@
     },
     "wof:country": "US",
     "wof:created": 1647879342,
-    "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
+    "wof:geomhash": "777fb27c316d109a2b5ddc1800f77aea",
     "wof:hierarchy": [
       {
         "building_id": 1745882083,
@@ -97,7 +97,7 @@
       1159283875,
       1745882427
     ],
-    "wof:lastmodified": 1647879874,
+    "wof:lastmodified": 1652118554,
     "wof:name": "NH1911 (SFO-NGO)",
     "wof:parent_id": 1745882427,
     "wof:placetype": "custom",
@@ -108,9 +108,9 @@
   },
   "bbox": [
     -122.370943,
-    0,
-    0,
+    34.858398,
+    136.804993,
     37.61799
   ],
-  "geometry": {"coordinates":[[-122.370943,37.61799],[0,0]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[-122.370943,37.61799],[136.804993,34.858398]],"type":"MultiPoint"}
 }
