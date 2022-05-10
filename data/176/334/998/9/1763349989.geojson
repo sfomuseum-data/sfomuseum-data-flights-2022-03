@@ -17,15 +17,15 @@
     "flysfo:scheduled_timestamp": 1648145400,
     "flysfo:timestamp": 1648162800,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,31.067200,-97.828903,37.617990",
+    "geom:latitude": 34.342595,
+    "geom:longitude": -110.09992299999999,
     "iata:airline": "UA",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
     "sfomuseum:airline_id": 1159285413,
-    "sfomuseum:arrival_id": -1,
+    "sfomuseum:arrival_id": 102530435,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20220324-D-UAL-2580",
     "sfomuseum:flight_number": [
@@ -37,7 +37,7 @@
     "wof:belongsto": [],
     "wof:country": "US",
     "wof:created": 1648225429,
-    "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
+    "wof:geomhash": "15a978a12b2d4014160ada20fff82988",
     "wof:hierarchy": [
       {
         "flight_id": 1763349989
@@ -50,7 +50,7 @@
       1159285413,
       -1
     ],
-    "wof:lastmodified": 1648225429,
+    "wof:lastmodified": 1652204869,
     "wof:name": "UA2580 (SFO-GRK)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
@@ -61,9 +61,9 @@
   },
   "bbox": [
     -122.370943,
-    0,
-    0,
+    31.0672,
+    -97.828903,
     37.61799
   ],
-  "geometry": {"coordinates":[[-122.370943,37.61799],[0,0]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-97.828903,31.0672]],"type":"MultiPoint"}
 }
