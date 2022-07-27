@@ -19,9 +19,9 @@
     "flysfo:scheduled_timestamp": 1648424100,
     "flysfo:timestamp": 1648425540,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,37.617990,28.818113,40.981491",
-    "geom:latitude": 39.2997405,
-    "geom:longitude": -46.776415,
+    "geom:bbox": "-122.370943,37.617990,28.727778,41.262222",
+    "geom:latitude": 39.440106,
+    "geom:longitude": -46.8215825,
     "iata:airline": "TK",
     "icao:aircraft": "B77W",
     "icao:airline": "THY",
@@ -30,7 +30,7 @@
     "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285391,
     "sfomuseum:arrival_id": 102527513,
-    "sfomuseum:departure_id": 102535819,
+    "sfomuseum:departure_id": 1779770747,
     "sfomuseum:flight_id": "20220327-A-THY-89",
     "sfomuseum:flight_number": [
       "THY89",
@@ -45,7 +45,7 @@
     "wof:belongsto": [],
     "wof:country": "US",
     "wof:created": 1648483904,
-    "wof:geomhash": "5dd5bc508b9b8f359c9c05d0fd4aaecc",
+    "wof:geomhash": "4d2f43ff669fe1502d86c3c45d37677c",
     "wof:hierarchy": [
       {
         "flight_id": 1763363563
@@ -58,7 +58,7 @@
       102535819,
       1159285391
     ],
-    "wof:lastmodified": 1648484768,
+    "wof:lastmodified": 1658884887,
     "wof:name": "TK89 (IST-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
@@ -70,8 +70,8 @@
   "bbox": [
     -122.370943,
     37.61799,
-    28.818113,
-    40.981491
+    28.727778,
+    41.262222
   ],
-  "geometry": {"coordinates":[[28.818113,40.981491],[-122.370943,37.61799]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[28.727778,41.262222],[-122.370943,37.61799]],"type":"MultiPoint"}
 }
