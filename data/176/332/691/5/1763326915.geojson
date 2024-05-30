@@ -40,6 +40,7 @@
     "wof:geomhash": "76fab8ba90cc172f777e745d124625d2",
     "wof:hierarchy": [
       {
+        "custom_id": 1763326915,
         "flight_id": 1763326915
       }
     ],
@@ -50,11 +51,13 @@
       1159284625,
       -1
     ],
-    "wof:lastmodified": 1647879593,
+    "wof:lastmodified": 1717038890,
     "wof:name": "KE26 (SFO-ICN)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-03",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -40,6 +40,7 @@
     "wof:geomhash": "e1d14091bb010ff3febce3dc78c1c8b4",
     "wof:hierarchy": [
       {
+        "custom_id": 1763352311,
         "flight_id": 1763352311
       }
     ],
@@ -50,11 +51,13 @@
       1159284261,
       -1
     ],
-    "wof:lastmodified": 1648310876,
+    "wof:lastmodified": 1717038887,
     "wof:name": "DL8914 (RDU-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-03",
     "wof:superseded_by": [],
     "wof:supersedes": []

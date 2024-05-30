@@ -40,6 +40,7 @@
     "wof:geomhash": "36f645f844d4838b633d7fed3f06d4a5",
     "wof:hierarchy": [
       {
+        "custom_id": 1763366349,
         "flight_id": 1763366349
       }
     ],
@@ -50,11 +51,13 @@
       1159285413,
       -1
     ],
-    "wof:lastmodified": 1648484610,
+    "wof:lastmodified": 1717038892,
     "wof:name": "UA2068 (SFO-BNA)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-03",
     "wof:superseded_by": [],
     "wof:supersedes": []

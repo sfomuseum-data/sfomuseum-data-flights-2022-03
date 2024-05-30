@@ -54,6 +54,7 @@
     "wof:geomhash": "c9618692327b148a3f9466df78845400",
     "wof:hierarchy": [
       {
+        "custom_id": 1763183373,
         "flight_id": 1763183373
       }
     ],
@@ -64,11 +65,13 @@
       102555709,
       1159285413
     ],
-    "wof:lastmodified": 1646238076,
+    "wof:lastmodified": 1717038892,
     "wof:name": "UA868 (DEL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-03",
     "wof:superseded_by": [],
     "wof:supersedes": []

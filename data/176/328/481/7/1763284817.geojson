@@ -40,6 +40,7 @@
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
     "wof:hierarchy": [
       {
+        "custom_id": 1763284817,
         "flight_id": 1763284817
       }
     ],
@@ -50,11 +51,13 @@
       1159285641,
       -1
     ],
-    "wof:lastmodified": 1647361150,
+    "wof:lastmodified": 1717038886,
     "wof:name": "LA5089 (SFO-LAX)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-03",
     "wof:superseded_by": [],
     "wof:supersedes": []

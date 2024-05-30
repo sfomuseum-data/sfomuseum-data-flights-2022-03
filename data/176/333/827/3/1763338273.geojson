@@ -48,6 +48,7 @@
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
     "wof:hierarchy": [
       {
+        "custom_id": 1763338273,
         "flight_id": 1763338273
       }
     ],
@@ -58,11 +59,13 @@
       1159284261,
       1159289939
     ],
-    "wof:lastmodified": 1648052668,
+    "wof:lastmodified": 1717038893,
     "wof:name": "DL8942 (SFO-PDX)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-03",
     "wof:superseded_by": [],
     "wof:supersedes": []

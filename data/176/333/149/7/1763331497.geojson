@@ -52,6 +52,7 @@
     "wof:geomhash": "5fe9a4073f558f5d433cae4f846ab71e",
     "wof:hierarchy": [
       {
+        "custom_id": 1763331497,
         "flight_id": 1763331497
       }
     ],
@@ -62,11 +63,13 @@
       102533657,
       1159285413
     ],
-    "wof:lastmodified": 1647966238,
+    "wof:lastmodified": 1717038887,
     "wof:name": "UA2737 (MCO-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-03",
     "wof:superseded_by": [],
     "wof:supersedes": []

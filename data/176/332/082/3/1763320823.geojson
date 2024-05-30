@@ -53,6 +53,7 @@
     "wof:geomhash": "4d8eca8dfd12d13a56951180b27dbf13",
     "wof:hierarchy": [
       {
+        "custom_id": 1763320823,
         "flight_id": 1763320823
       }
     ],
@@ -63,11 +64,13 @@
       1159289871,
       102534097
     ],
-    "wof:lastmodified": 1647793421,
+    "wof:lastmodified": 1717038886,
     "wof:name": "UA2737 (SFO-IAH)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-03",
     "wof:superseded_by": [],
     "wof:supersedes": []

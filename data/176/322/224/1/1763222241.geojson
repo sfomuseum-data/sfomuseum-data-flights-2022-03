@@ -53,6 +53,7 @@
     "wof:geomhash": "aa693abb2ae41d4e13dc0551dd7a15ae",
     "wof:hierarchy": [
       {
+        "custom_id": 1763222241,
         "flight_id": 1763222241
       }
     ],
@@ -63,11 +64,13 @@
       102528479,
       1159285413
     ],
-    "wof:lastmodified": 1646670214,
+    "wof:lastmodified": 1717038882,
     "wof:name": "UA2716 (FTW-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-03",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -54,6 +54,7 @@
     "wof:geomhash": "15a978a12b2d4014160ada20fff82988",
     "wof:hierarchy": [
       {
+        "custom_id": 1763238893,
         "flight_id": 1763238893
       }
     ],
@@ -63,11 +64,13 @@
       102527513,
       1159285413
     ],
-    "wof:lastmodified": 1652204865,
+    "wof:lastmodified": 1717038886,
     "wof:name": "UA2589 (SFO-GRK)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-03",
     "wof:superseded_by": [],
     "wof:supersedes": []

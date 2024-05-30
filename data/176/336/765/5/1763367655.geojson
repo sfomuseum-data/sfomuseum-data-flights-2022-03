@@ -40,6 +40,7 @@
     "wof:geomhash": "99c2bdbe61e95eb26a51b43b0c172358",
     "wof:hierarchy": [
       {
+        "custom_id": 1763367655,
         "flight_id": 1763367655
       }
     ],
@@ -50,11 +51,13 @@
       1159283875,
       -1
     ],
-    "wof:lastmodified": 1648569913,
+    "wof:lastmodified": 1717038893,
     "wof:name": "NH108 (HND-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-03",
     "wof:superseded_by": [],
     "wof:supersedes": []

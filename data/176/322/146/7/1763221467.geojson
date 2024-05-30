@@ -40,6 +40,7 @@
     "wof:geomhash": "b214b79a783c652f01bac93c835ba981",
     "wof:hierarchy": [
       {
+        "custom_id": 1763221467,
         "flight_id": 1763221467
       }
     ],
@@ -50,11 +51,13 @@
       1159283717,
       -1
     ],
-    "wof:lastmodified": 1646669234,
+    "wof:lastmodified": 1717038881,
     "wof:name": "FJ870 (NAN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-03",
     "wof:superseded_by": [],
     "wof:supersedes": []

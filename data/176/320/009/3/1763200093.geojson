@@ -40,6 +40,7 @@
     "wof:geomhash": "4b1b48411c4e89d5e7d7bc8ee580b2c3",
     "wof:hierarchy": [
       {
+        "custom_id": 1763200093,
         "flight_id": 1763200093
       }
     ],
@@ -50,11 +51,13 @@
       1159285413,
       -1
     ],
-    "wof:lastmodified": 1652118548,
+    "wof:lastmodified": 1717038892,
     "wof:name": "UA2588 (NUE-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-03",
     "wof:superseded_by": [],
     "wof:supersedes": []

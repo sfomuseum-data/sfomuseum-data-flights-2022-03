@@ -54,6 +54,7 @@
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
     "wof:hierarchy": [
       {
+        "custom_id": 1763208517,
         "flight_id": 1763208517
       }
     ],
@@ -64,11 +65,13 @@
       1159285413,
       1159289965
     ],
-    "wof:lastmodified": 1646497420,
+    "wof:lastmodified": 1717038884,
     "wof:name": "UA2863 (HNL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-03",
     "wof:superseded_by": [],
     "wof:supersedes": []

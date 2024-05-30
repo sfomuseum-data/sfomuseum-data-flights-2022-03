@@ -48,6 +48,7 @@
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
     "wof:hierarchy": [
       {
+        "custom_id": 1763338271,
         "flight_id": 1763338271
       }
     ],
@@ -58,11 +59,13 @@
       1159284261,
       1159289939
     ],
-    "wof:lastmodified": 1648052676,
+    "wof:lastmodified": 1717038894,
     "wof:name": "DL8914 (SFO-SEA)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-03",
     "wof:superseded_by": [],
     "wof:supersedes": []
